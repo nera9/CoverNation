@@ -1,0 +1,60 @@
+﻿@model CoverNation.ViewModel.CNMSViewModel.ChangePersonalInfo
+
+@using (Ajax.BeginForm("ChangePersonalInfo", new AjaxOptions { UpdateTargetId = "CNMSContent" }))
+{
+
+    <div class="col-xs-12 col-md-8 personalInfoChangeContainer">
+        <h3 style="color:white;">Change personal info</h3>
+
+        @Html.ValidationSummary(true, "", new { @class = "login-text-danger" })
+
+        @if (ViewBag.SuccessMessage != null )
+        {
+            <span style="font-size:16px;color:white;">@ViewBag.SuccessMessage</span>
+        }
+
+        <div class="formGroup">
+            @Html.LabelFor(model => model.FirstName, htmlAttributes: new { @class = "formLabel col-md-12" })
+            <div class="col-md-8 col-xs-12">
+                @Html.EditorFor(model => model.FirstName, new { htmlAttributes = new { @class = "loginInput" } })
+                @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="formGroup">
+            @Html.LabelFor(model => model.LastName, htmlAttributes: new { @class = "formLabel col-md-12" })
+            <div class="col-md-8 col-xs-12">
+                @Html.EditorFor(model => model.LastName, new { htmlAttributes = new { @class = "loginInput" } })
+                @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="formGroup">
+            @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "formLabel col-md-12" })
+            <div class="col-md-8 col-xs-12">
+                @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "loginInput" } })
+                @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="formGroup">
+            @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "formLabel col-md-12" })
+            <div class="col-md-8 col-xs-12">
+                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "loginInput" } })
+                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <input type="submit" class="submitBtnCNMS" />
+        
+
+    </div>
+
+}
+<div class="col-xs-12 col-md-4">
+    <div class="form-group" id="genreList">
+
+        @{
+            Html.RenderAction("UserGenres");
+        }
+    </div>
+</div>

@@ -1,0 +1,145 @@
+﻿@model CoverNation.ViewModel.ProfileViewModel
+<div class="mainContainer">
+    <div class="profileContainer">
+        <span id="actionMessage"></span>
+        <!--- /radi se -->
+        <div class="profileHeaderContainer">
+            <div class="profileHeaderContent">
+                <div class="profileHeaderNavigation">
+                    <a href="/CoverFeed/Index"><img alt="Logo" src="~/Content/images/covernation2.png" style="width:200px;height:auto;" /></a> 
+                   <a href="/Users/Logout" style="color:white; text-decoration:none; float:right;"><i class="fa fa-sign-out" aria-hidden="true"></i> Logout</a>
+                </div><!-- end of profileHeaderTop-->
+
+                <div class="profileHeaderBody">
+
+                    <div class="profileHeaderBodyLeft floatLeft">
+
+                        <img src="@Model.ProfilePictureURL" alt="Profile picture" class="profilePicture" />
+
+                    </div><!-- end of profileHeaderBodyLeft -->
+
+                    <div class="profileHeaderBodyMiddle floatLeft">
+
+                        <div class="profileName floatLeft">
+                            <span>@Model.FirstName @Model.LastName</span>
+                            @if (Model.Role == "Musician" && Model.TypeOfVisitingUser == "BasicUser")
+                            {
+                                if (Model.IsSubscribed == false)
+                                {
+                                    @Ajax.ActionLink("+ Subscribe", "Subscribe", "Users", new { musicianId = Model.UserId }, new AjaxOptions { OnSuccess = "subscribeMsg" }, new { id = "SubscribeBtn", @class = "subscribeBtn-lg subBtn" })
+                                }
+                                else
+                                {
+                                    @Ajax.ActionLink("- Unsubscribe", "Subscribe", "Users", new { musicianId = Model.UserId }, new AjaxOptions { OnSuccess = "subscribeMsg" }, new { id = "UnsubscribeBtn", @class = "subscribeBtn-lg subBtn" })
+                                }
+
+                            }
+                        </div><!-- end of profileName-->
+                        <div class="infoIcons floatLeft">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-microphone" aria-hidden="true"></i>
+                        </div><!-- end of infoIcon-->
+                        <div class="infoIconsText floatLeft">
+                            <span>Default</span>
+                            <span>@Model.Subs</span>
+                            <span>@Model.NumOfCovers</span>
+                        </div><!-- end of infoIconsText -->
+                    </div><!-- end of profileHeaderBodyLeft -->
+
+                    <div class="profileHeaderBodyRight headerRight-lg floatLeft">
+                        <ul>
+                            <li>
+                                @Ajax.ActionLink("COVERS", "getMusicianCovers", "CoverManagment", new { ProfileToShowUserId = Model.UserId }, new AjaxOptions
+                           {
+                               UpdateTargetId = "profileContentData",
+                               OnBegin = "reload"
+                           })
+                            </li>
+                            <li>
+                                @Ajax.ActionLink("ABOUT", "About", "Users", new { userId = Model.UserId },
+                               new AjaxOptions
+                               {
+                                   UpdateTargetId = "profileContentData",
+                                   OnBegin = "onBegin",
+                                   OnComplete = "onComplete"
+                               })
+                            </li>
+                            <li>
+                                @Ajax.ActionLink("PLAYLIST", "Index", "Playlist", new { userId = Model.UserId },
+                               new AjaxOptions
+                               {
+                                   UpdateTargetId = "profileContentData",
+                                   OnBegin = "onBegin",
+                                   OnComplete = "onComplete"
+                               })
+                            </li>
+                            @if (!Model.IsVisitor)
+                            {
+                                <li>@Html.ActionLink("SETTINGS", "Index", "CNMS")</li>
+                            }
+                        </ul>
+                    </div><!-- end of profileHeaderBodyLeft -->
+                </div><!-- end of profileHeaderBody -->
+            </div><!-- end of headerNavigation -->
+        </div><!-- end of profileHeaderContainer-->
+        <div class="profileContent" id="profileContentContainer">
+            <div class="headerRight-sm">
+                <ul>
+                    <li>
+                        @Ajax.ActionLink("COVERS", "getMusicianCovers", "CoverManagment", new { ProfileToShowUserId = Model.UserId },
+                        new AjaxOptions
+                        {
+                            UpdateTargetId = "profileContentData",
+                            OnBegin = "reload"
+                        })
+                    </li>
+                    <li>
+                        @Ajax.ActionLink("ABOUT", "About", "Users", new { userId = Model.UserId },
+                        new AjaxOptions
+                        {
+                            UpdateTargetId = "profileContentData",
+                            OnBegin = "onBegin",
+                            OnComplete = "onComplete"
+                        })
+                    </li>
+                    <li>
+                        @Ajax.ActionLink("PLAYLIST", "Index", "Playlist", new { userId = Model.UserId },
+                        new AjaxOptions
+                        {
+                            UpdateTargetId = "profileContentData",
+                            OnBegin = "onBegin",
+                            OnComplete = "onComplete"
+                        })
+                    </li>
+                    @if (!Model.IsVisitor)
+                    {
+                        <li>@Html.ActionLink("SETTINGS", "Index", "CNMS")</li>
+                    }
+                </ul>
+            </div><!-- end of profileHeaderBodyLeft -->
+            <div id="profileContentData" class="profileContentData">
+                @{
+                    Html.RenderAction("getMusicianCovers", "CoverManagment", new { ProfileToShowUserId = Model.UserId, isVisitor = Model.IsVisitor });
+                }
+            </div><!-- end od aboutMusicianContainer-->
+        </div><!-- end of profileCoverContent -->
+    </div><!-- end of profileContainer -->
+</div>
+<script>
+    $(document).ready(function () {
+        if ($(window).width() > 768) {
+            $('.subBtn').addClass('subscribeBtn-lg').removeClass('subscribeBtn-sm');
+        }
+        else {
+            $('.subBtn').addClass('subscribeBtn-sm').removeClass('subscribeBtn-lg');
+
+        }
+        var imgUrl = '"' + "@Model.ProfilePictureURL" + '"';
+        var cssStyle = ".profileContainer:before { background-image: url(" + imgUrl + "); }";
+        document.styleSheets[0].insertRule(cssStyle, 0);
+    });
+</script>
+
+
+

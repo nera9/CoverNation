@@ -1,0 +1,17 @@
+﻿@model CoverNation.ViewModel.CNMSViewModel.InstrumentList
+
+<div class="col-md-12" >
+    @foreach (var item in Model.Instruments)
+    {
+        <div class="col-xs-2 col-md-1" style="margin-bottom:20px;">
+            <img src="@item.ImageURL" />
+        </div>
+        <div class="col-xs-10 col-md-11" style="padding-left:10px; vertical-align:middle;line-height:48px;font-size:18px; margin-bottom:20px;">
+            <span>@item.InstrumentName</span>
+            <a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#userInstrumentList" href="/CNMS/DeleteMusicianInstrument?instrumentId=@item.InstrumentId" class="floatRight">
+                <i class="fa fa-trash-o" aria-hidden="true"></i>
+            </a>
+        </div>
+    }    
+
+</div>

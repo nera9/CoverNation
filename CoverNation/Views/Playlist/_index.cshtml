@@ -1,0 +1,17 @@
+﻿@model CoverNation.ViewModel.PlaylistViewModel.PlaylistViewModelIndexList
+
+<div class="col-md-12 playlistContainer">
+    @if (!Model.IsVisitor)
+    {
+        <div class="col-md-12 playlistHeader" id="playlist-header" style="text-align:right;">
+            @Ajax.ActionLink("Playlist managment", "ManagmentIndex", null, new AjaxOptions { UpdateTargetId = "playlistContent" }, new { id = "pmBtn", @class = "submitBtnCNMS" })
+        </div>
+    }
+   
+    <div class="col-md-12 playlistContent" id="playlistContent">
+        @{
+            Html.RenderPartial("_indexList", Model);
+        }
+    </div>
+
+</div>

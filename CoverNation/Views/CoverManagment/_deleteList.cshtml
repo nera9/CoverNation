@@ -1,0 +1,21 @@
+﻿@model IEnumerable<CoverNation.Models.Cover>
+@foreach (var item in Model)
+{
+    <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 videoContainer">
+        <div class="coverVideo col-xs-5 col-sm-5 col-md-12 col-lg-12">
+            @*<iframe id="coverVideo-mobile" src="@item.VideoURL"></iframe>*@
+            <img src="@item.Thumbnail" alt="@item.CoverName" style="width:100%; height:auto;" />
+        </div>
+        <div class="coverVideoContent col-xs-7 col-sm-7 col-md-12 col-lg-12">
+            <div>
+                <span class="col-md-11">@item.CoverName</span>
+                <a class="fa fa-times col-md-1 floatRight" data-ajax="true" data-ajax-method="POST" data-ajax-mode="replace" data-ajax-update="#coverManagmentContent" href="/CoverManagment/DeleteCover?coverId=@item.CoverId"></a>
+            </div>
+        </div>
+
+    </div><!-- end of videoContainer -->
+}
+
+
+
+

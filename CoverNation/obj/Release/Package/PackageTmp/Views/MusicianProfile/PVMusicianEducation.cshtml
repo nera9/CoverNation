@@ -1,0 +1,22 @@
+﻿@using CoverNation.ViewModel
+@using CoverNation.Models
+
+@model CoverNation.ViewModel.MusicianViewModel
+    <h1>Education</h1>
+<h2>Instruments @Model.FirstName plays: </h2>
+<table>
+    <tr>
+        <th>Instrument Name</th>
+        <th>Learned To Play At</th>
+        <th>Started Playing</th>
+    </tr>
+    <tr>
+        @foreach(var instrument in Model.playingInstruments)
+        {
+            <td>@instrument.Instrument</td>
+            <td>@instrument.InstitutionName</td>
+            <td>ne mogu doc do njeggg</td>
+        }
+    </tr>
+   
+</table>

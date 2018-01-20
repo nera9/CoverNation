@@ -1,0 +1,21 @@
+﻿@model CoverNation.ViewModel.CNMSViewModel.BiographyUpdate
+
+@using (Ajax.BeginForm("UpdateBiography", new AjaxOptions { UpdateTargetId = "CNMSContent" }))
+{
+    <h3 style="color:white;">Update biography</h3>
+    <div class="col-md-12" style="width:100%">
+        <div class="col-md-12">
+            <textarea name="Biography" class="loginInput floatLeft" id="biographyText">@Model.Biography</textarea>
+        </div>
+        <br /><br /><br />
+        <div class="col-md-12">
+            <input type="submit" class="submitBtnCNMS" style="float:left;" />
+        </div>
+    </div>
+
+    if (ViewData["succesMessage"] != null)
+    {
+        <span> @ViewData["succesMessage"] </span>
+    }
+}
+

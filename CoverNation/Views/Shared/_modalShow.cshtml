@@ -1,0 +1,204 @@
+﻿@model CoverNation.ViewModel.CoverManagmentViewModel.CoverShow
+<span id="closeModalBtn">
+    <i class="fa fa-times" aria-hidden="true"></i>
+</span>
+<style>
+    #minimizeMaximiteBtn{
+        position:absolute;
+        top:5px;
+        left:50px;
+        font-size:22px;
+        z-index:10;
+    }
+</style>
+<div class="modalVideoPlayContainer">
+    <div class="videoAndCommentSection">
+        <iframe src="@Model.YTurl" allowfullschreen></iframe>
+        <div id="commentContainer">
+            <div class="postCommentSection">
+                <div class="postCommentSection-content">
+                    <div class="commentContent-left">
+                        <img src="@Model.CoverMusicianProfile" class="commentProfileIcon" />
+                    </div>
+                    <div class="commentContent-right">
+                        @using (Ajax.BeginForm("PostComment", "CoverManagment", new { coverId = Model.CoverId }, new AjaxOptions { UpdateTargetId = "commentSection", InsertionMode = InsertionMode.InsertBefore, OnComplete = "$('#commentText').val('');" }, new { @class = "postCommentForm" }))
+                        {
+                            <input type="text" name="commentText" class="commentTxt" id="commentText" autocomplete="off" placeholder="Write new comment..." />
+                            <div class="submitComment" id="commentSubmit">
+                                <input type="submit" value="&#x2713;" />
+                            </div>
+                            
+                        }
+                    </div>
+                    
+
+                   
+                </div>
+            </div>
+            <div class="divider-90"></div>
+            <div id="commentSection" class="commentSection">
+                
+
+            </div>
+            <div class="divider-90"></div>
+            <div class="rateSection">
+                <div class="currentRaiting">
+                    <label class="raitingStar" id="currentRaiting" for="star-5">@Model.CoverRaitingAvg</label>
+                </div>
+                <div class="userRaiting">
+                    <div class="videoSocialSection">
+                        <div class="stars">
+                            <input class="star star-5" id="star-5" type="radio" name="star" value="5" />
+                            <label class="star star-5" for="star-5"></label>
+                            <input class="star star-4" id="star-4" type="radio" name="star" value="4" />
+                            <label class="star star-4" for="star-4"></label>
+                            <input class="star star-3" id="star-3" type="radio" name="star" value="3" />
+                            <label class="star star-3" for="star-3"></label>
+                            <input class="star star-2" id="star-2" type="radio" name="star" value="2" />
+                            <label class="star star-2" for="star-2"></label>
+                            <input class="star star-1" id="star-1" type="radio" name="star" value="1" />
+                            <label class="star star-1" for="star-1"></label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+        </div><!-- end of videoAndCommentSection -->
+
+
+        <div class="commentIcon commentOpen">
+            <a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#commentSection" href="/CoverManagment/GetComments?coverId=@Model.CoverId" id="commentBtn"><img src="~/Content/images/comment-rate.png" style="margin:10px;" />Comment & rate</a>
+        </div>
+        <div class="commentIcon-sm floatLeft commentOpen" style="height:5%;">
+            <a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#commentSection-sm" href="/CoverManagment/GetComments?coverId=@Model.CoverId" id="commentBtn"><img src="~/Content/images/comment-rate-sm.png" style="margin:5px;" />Comment & rate</a>
+        </div>
+    </div><!-- end of videoSocialSection -->
+    
+
+</div><!-- end of modalVideoPlayContainer -->
+<div id="small-comment-container">
+    <div class="postCommentSection">
+        <div class="postCommentSection-content">
+            <div class="commentContent-left">
+                <img src="~/Content/images/profile.jpg" class="commentProfileIcon" />
+            </div>
+            <div class="commentContent-right">
+                @using (Ajax.BeginForm("PostComment", "CoverManagment", new { coverId = Model.CoverId }, new AjaxOptions { UpdateTargetId = "commentSection", InsertionMode = InsertionMode.InsertBefore, OnComplete = "$('#commentText').val('');" }, new { @class = "postCommentForm" }))
+                {
+                    <input type="text" name="commentText" class="commentTxt" id="commentText" autocomplete="off" placeholder="Write new comment..." />
+                        <div class="submitComment" id="commentSubmit">
+                            <input type="submit" value="&#x2713;" />
+                        </div>
+
+                }
+            </div>
+
+
+
+        </div>
+    </div>
+    <div class="divider-90"></div>
+    <div id="commentSection-sm" class="commentSection">
+
+    </div>
+    <div class="divider-90"></div>
+    <div class="rateSection">
+        <div class="currentRaiting">
+            <label class="raitingStar" id="currentRaiting" for="star-5">@Model.CoverRaitingAvg</label>
+        </div>
+        <div class="userRaiting">
+            <div class="videoSocialSection">
+                <div class="stars">
+                    <input class="star star-5" id="star-5" type="radio" name="star" value="5" />
+                    <label class="star star-5" for="star-5"></label>
+                    <input class="star star-4" id="star-4" type="radio" name="star" value="4" />
+                    <label class="star star-4" for="star-4"></label>
+                    <input class="star star-3" id="star-3" type="radio" name="star" value="3" />
+                    <label class="star star-3" for="star-3"></label>
+                    <input class="star star-2" id="star-2" type="radio" name="star" value="2" />
+                    <label class="star star-2" for="star-2"></label>
+                    <input class="star star-1" id="star-1" type="radio" name="star" value="1" />
+                    <label class="star star-1" for="star-1"></label>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+    
+
+    $(function () {
+        if ($(window).width() < 768) {
+            $("#commentContainer").remove();
+        }
+        else{
+            $("#small-comment-container").remove();
+        }
+
+        if ('@(Model.IsLikedByCurrentUser)' === '@true')
+        {
+            $('input[value="@Model.CurrentUserRaiting"]').attr("checked","checked");
+
+        }
+        $(':radio[name="star"]').change(function () {
+            var oldRaiting = @Model.CoverRaiting;
+            var currentUserRaiting = @Model.CurrentUserRaiting;
+            var newRaiting = $(':radio[name="star"]:checked').val();
+            if ('@(Model.IsLikedByCurrentUser)' === '@true')
+            {
+                var raiting = (((parseInt(oldRaiting) + parseInt(newRaiting) - parseInt(currentUserRaiting)) / @Model.NumOfRaitings)).toFixed(2);
+                $("#currentRaiting").html(raiting);
+
+            }
+            else{
+                raiting = (((parseInt(oldRaiting) + parseInt(newRaiting)) / (@Model.NumOfRaitings + 1))).toFixed(1);
+
+                $("#currentRaiting").html(raiting);
+            }
+            $.ajax({
+                url: '/CoverManagment/RateCover',
+                type: 'POST',
+                data: { Raiting: newRaiting, CoverId : @Model.CoverId },
+                success: function () {
+                    var checkIfPlaylistCall = $('#modalVideoContainer').html();
+                    if (checkIfPlaylistCall == undefined) {
+                        var div = $('#@Model.CoverId-replace');
+
+                        url = "/CoverManagment/GetCover?coverId=@Model.CoverId";
+
+                        $.get(url, function(data) {
+                            div.html(data);
+                            setHoverListener();
+                        });
+                    }
+
+                }
+            });
+        });
+    });
+    $('#closeModalBtn').on('click', function() {
+        $("#testVideoModal").hide();
+        $("#commentContainer").hide();
+    });
+   
+
+    $('.commentOpen').on('click', function() {
+        if ($(window).width() > 768) {
+            $("#commentContainer").toggle();
+        }
+        else{
+            $("#small-comment-container").toggle(); 
+
+        }
+
+    });
+    function setHoverListener(){
+        document.getElementById("@Model.CoverId").addEventListener("mouseover", PlaylistMouseOver, false);
+        document.getElementById("@Model.CoverId").addEventListener("mouseout", PlaylistMouseOut, false);
+    }
+</script>
+

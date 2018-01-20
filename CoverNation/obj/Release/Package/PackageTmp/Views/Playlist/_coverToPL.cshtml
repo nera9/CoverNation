@@ -1,0 +1,9 @@
+﻿@model CoverNation.ViewModel.CoverManagmentViewModel.CoverShowList
+@foreach (var item in Model.CoverList)
+{
+    <div class="col-md-4" >
+        <img src="@item.Thumbnail"/>        
+        @item.CoverName
+        <i class="fa fa-plus addToPLBtn" onclick="nesto(@item.CoverId)" aria-hidden="true" id="@item.CoverId"></i>
+    </div>
+}

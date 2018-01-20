@@ -1,0 +1,34 @@
+﻿@model CoverNation.ViewModel.PlaylistViewModel.AddNewCover
+
+<span class="col-md-8">
+    @using (Ajax.BeginForm("SearchAllCovers", new AjaxOptions { UpdateTargetId = "PLcoverResult" }))
+    {
+        <label for="searchTerm" class="formLabel">Search covers by name:</label><br />
+        <input type="text" name="searchTerm" id="searchTerm" class="loginInput" style="max-width:243px;float:left;margin-bottom:20px;" />
+        <input type="submit" id="searchTermSubmit" class="submitBtn" style="float:left;margin-left:10px;" value="Search" />
+    }
+</span>
+<span class="col-md-4">
+    @Html.DropDownListFor(x => x.LastMade, Model.PlaylistNames, new { @class = "loginInput", id = "PLDD" })
+</span>
+<span id="succedMessage"></span>
+<div id="PLcoverResult" class="col-md-12">
+    
+</div>
+
+<script>
+    function nesto(coverId) {
+        var playlistIdString = $("#PLDD option:selected").attr("value");
+        var playlistId = parseInt(playlistIdString);
+        $.post('/Playlist/CoverToPlaylist', { coverId: coverId, playlistId: playlistId},
+                function (returnedData) {
+                    $("#succedMessage").html(returnedData);
+                    $("#PLcoverResult").empty();
+                });
+    }
+    function selectPlaylist() {
+        $("#PLDD option:last-child").attr('selected', true);
+    }
+
+
+</script>

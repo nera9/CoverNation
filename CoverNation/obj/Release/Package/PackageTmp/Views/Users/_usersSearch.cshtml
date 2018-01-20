@@ -1,0 +1,22 @@
+﻿@model CoverNation.ViewModel.UserInfo.UserSearch
+
+<a href="/Users/Profile?id=@Model.UserId">
+    <div class="row">
+        <div class="col-md-12" id="result-row">
+            <div class="row">
+                <div class="col-md-3">
+                    <div id="search-result-left">
+                        <img src="@Model.ProfilePic" alt="User profile picture" />
+                        <p>@Model.UserType</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div id="search-result-right">
+                        <p>@Model.FirstName @Model.LastName</p>
+                        <p>@Model.Username</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</a>

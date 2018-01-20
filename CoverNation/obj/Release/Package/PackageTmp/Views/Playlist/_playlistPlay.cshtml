@@ -1,0 +1,102 @@
+﻿@model CoverNation.ViewModel.PlaylistViewModel.ModalPlay
+
+
+<div id="modalVideoPlayContainer">
+    @{ Html.RenderAction("PlaylistItemPlay", new { coverId = Model.PlaylistPlayContent[0].CoverId });}
+    </div><!-- end of modalVideoPlayContainer -->
+
+
+<div class="modalVideoContainer col-md-12" id="modalVideoContainer">
+    @foreach (var item in Model.PlaylistPlayContent)
+    {
+        <div class="col-md-2" style="display:block;">
+            <a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#modalVideoPlayContainer" href="/Playlist/PlaylistItemPlay?coverId=@item.CoverId">
+                <img class="playListThumbnailImg" src="@item.Thumbnail"/>               
+            </a>
+        </div>
+    }
+
+    <span id="moveLeft" class="sliderArrow">
+        <i class="fa fa-arrow-left" aria-hidden="true"></i>
+    </span>
+    <span id="moveRight" class="sliderArrow">
+        <i class="fa fa-arrow-right" aria-hidden="true"></i>
+    </span>
+
+</div><!-- end of modalVideoContainer -->
+
+
+<script>
+    $(document).ready(function () {
+        document.getElementById("moveRight").addEventListener("click", moveRight, false);
+        document.getElementById("moveLeft").addEventListener("click", moveLeft, false);
+        document.getElementById("closeModalBtn").addEventListener("click", closeModal, false);
+
+        var counter;
+        counter = 0;
+        var last;
+        var first;
+        $(".modalVideoContainer div:lt(6)").css("display", "block");
+
+        function moveRight() {
+            ++counter;
+            last = $(".modalVideoContainer div:nth-child(" + (counter + 6) + ")");
+            first = $(".modalVideoContainer div:nth-child(" + (counter) + ")");
+            if (last.attr("class") == "col-md-2") {
+
+                //first.animate({ width: 'toggle' }, "fast");
+                //last.animate({ width: 'toggle' }, "fast");
+                first.fadeOut(100);
+                last.delay(100).fadeIn();
+            }
+            else {
+                --counter;
+            }
+        }
+
+        function moveLeft() {
+            if (counter == 0) {
+                return;
+            }
+            last = $(".modalVideoContainer div:nth-child(" + (counter + 6) + ")");
+            first = $(".modalVideoContainer div:nth-child(" + counter + ")");
+            if (first.attr("class") == "col-md-2") {
+                last.fadeOut(80);
+                first.delay(80).fadeIn(80);
+
+                --counter;
+            }
+
+        }
+        function closeModal() {
+            document.getElementById("testVideoModal").style.display = "none";
+        }
+        /*TEST*/
+        var classname = document.getElementsByClassName("playListThumbnailImg");
+        classname[0].style = "border: 3px solid white;";
+        var myFunction = function () {
+
+            for (var i = 0; i < classname.length; i++) {
+                classname[i].style = "border:none";
+                classname[i].id = i.toString();
+            }
+            this.style = "border: 3px solid white;";
+            var url = this.getAttribute("alt");
+            //var likes = parseint(this.id) + 1;
+
+            //document.getElementById("playListVideoPlay").setAttribute("src", url)
+            //document.getElementById("numberOfLikes").setAttribute("src", url)
+        };
+
+        for (var i = 0; i < classname.length; i++) {
+            classname[i].addEventListener('click', myFunction, false);
+        }
+
+
+
+
+    });
+
+
+
+</script>

@@ -1,0 +1,52 @@
+﻿@model CoverNation.ViewModel.PlaylistViewModel.PlaylistViewModelIndexList
+
+@foreach (var item in Model.Playlists)
+{
+    <div class="col-xs-12 col-md-3 playlistItemContainer" style="padding:10px;">
+        <div class="col-md-12 itemContent" id="itemContent">
+            <img src="@item.PlaylistThumbnail" style="width:100%;height:auto" />
+        @if (Model.IsDeleteList == true)
+        {
+            <a class="fa fa-play" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#PMRight" href="/Playlist/GetPlaylistCovers?playlistId=@item.PlaylistId" id="playBtn">
+            </a>
+        }
+        else
+        {
+            <a class="fa fa-play playBtn" data-ajax="true" data-ajax-begin="openVideoModal();onBegin()" data-ajax-complete="onComplete" data-ajax-mode="replace" data-ajax-update="#testVideoModal" href="/Playlist/Play?playlistId=@item.PlaylistId" id="playBtn">
+            </a>
+
+            <a class="fa fa-play playBtn-smallScreen play-btn-hoverEvent" data-ajax-begin="onBegin()" data-ajax-complete="onComplete" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#playlistContent" href="/Playlist/PlaylistCoverSmallScreen?playlistId=@item.PlaylistId" id="playBtn-smallScreen">
+            </a>
+        }
+            
+            <div class="playlistInfo">
+                <p>@item.NumberOfCovers</p>
+                <p>covers</p>
+                <i class="fa fa-list-ul" aria-hidden="true"></i>
+            </div>
+        </div><!-- end of itemContent -->
+        <div class="col-md-12">
+            <span>@item.PlaylistName</span>
+        </div><!-- end of itemHeader -->
+    </div><!-- end of playlistItemContainer -->
+}
+<script>
+    if ($(window).width() < 768) {
+        var btns_lenght = $(".playBtn").length;
+        var btns = $(".playBtn");
+
+        for (var i = 0; i < btns_lenght; i++) {
+            btns[i].remove();
+        }
+        setHoverEffect("itemContent", "playBtn-smallScreen");
+    }
+    else {
+        var btns_lenght = $(".playBtn-smallScreen").length;
+        var btns = $(".playBtn-smallScreen");
+
+        for (var i = 0; i < btns_lenght; i++) {
+            btns[i].remove();
+        }
+        setHoverEffect("itemContent", "playBtn");
+    }
+</script>

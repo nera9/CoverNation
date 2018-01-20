@@ -1,0 +1,1829 @@
+﻿* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    h3 {
+        font-size:18px;
+    }
+}
+a {
+    text-decoration: none !important;
+}
+#error-div{
+    height:100vh;
+    background: url("images/404.png") no-repeat center center;
+    background-size:cover;
+    color:white;
+    text-align:center;
+    display:table;
+    width:100%;
+}
+#error-div div{
+    display:inline-block;
+    margin:0 auto;
+    display:table-cell;
+    vertical-align:middle;
+}
+#error-div div p:nth-child(1){
+    font-size:26px;
+}
+#error-div div p:nth-child(2){
+    font-size:12px;
+}
+#error-div div h1{
+    font-size:72px;
+    font-weight:800;
+}
+#error-div div a{
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+}
+#actionMessage{
+    display:none;
+    position:absolute;
+    top:30px;
+    left:30px;
+    padding:5px 10px;
+    border-radius:10px;
+    background-color:#00b200;
+    color:white;
+    font-size:16px;
+}
+[class*="col-"] {
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+    a:hover {
+        text-decoration: none;
+        color: white;
+    }
+#infinity-loader{
+    display:none;
+    width: 100%;
+    height: 100%;
+    position: absolute;   
+    z-index: 10;
+    background-color: rgba(0,0,0,.5);
+
+}
+#infinity-loader img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 97px;
+    height: auto;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #212121;
+    font-family: 'Ropa Sans', sans-serif;
+}
+
+.closeBtnAbs {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+p {
+    margin: 0;
+}
+/*=========================== GLOBALES ============================ */
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+
+/*=========================== GLOBALES ============================ */
+
+
+
+
+/*========================================  LOGIN SECTION  ========================================*/
+
+.loginContainer {
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .loginContainer {
+        width: 100%;
+        height: 100vh;
+        padding-top: 6%;
+    }
+}
+
+.logoText {
+    font-size: 42px;
+    display: block;
+    color: white;
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .logoText {
+        font-size: 46px;
+    }
+}
+
+.formGroup {
+    width: 100%;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .formGroup {
+        font-size: 16px;
+        color: white;
+        font-weight: 100;
+    }
+}
+
+.formLabel {
+    font-weight: 300;
+    color: rgba(255, 255, 255,0.47);
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.loginInput {
+    background-color: transparent !important;
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    padding: 0;
+    margin-bottom: 5px;
+}
+
+    .loginInput:focus {
+        outline: none;
+    }
+
+.login-text-danger {
+    color: #f85a44;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.valMsgContainer {
+    width: 100%;
+}
+
+.errorImg {
+    width: 5%;
+    height: auto;
+    display: inline-block;
+    vertical-align: top;
+    float: right;
+}
+
+.loginBtn {
+    border-radius: 15px;
+    width: 25%;
+    font-size: 16px;
+    float: right;
+    margin-top: 10px;
+}
+
+/*========================================  LOGIN SECTION  ========================================*/
+
+
+
+/*========================================  REGISTRATION SECTION  ========================================*/
+
+.halfInputLeft {
+    padding-right: 7px;
+}
+
+.halfInputRight {
+    padding-left: 7px;
+}
+
+.regInput33 {
+    width: 33.33% !important;
+}
+
+.formGroup select option {
+    background-color: #212121;
+}
+
+.formGroup select:focus {
+    outline: none;
+}
+
+/*========================================  REGISTRATION SECTION  ========================================*/
+
+
+
+/*========================================  PROFILE SECTION  ========================================*/
+.profileContainer {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;
+}
+
+
+
+
+/*=========================== PROFILE COVER SECTION =====================================*/
+.profileHeaderContainer {
+    height: 45%;
+    width: 100%;
+}
+
+.CNMSNavgation-li {
+    padding-right: 15px;
+}
+
+    .CNMSNavgation-li:hover {
+        border-right: 2px solid white;
+    }
+
+.nav-li{
+    padding-right: 15px;
+    display:inline-block;
+}
+.nav-li:hover {
+        border-right: 2px solid white;
+    }
+.profileContainer:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    display: block;
+    /*background-image: url("/Content/images/Haraaa.jpg");*/
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+@media only screen and (max-width: 768px) {
+    .profileHeaderContainer {
+        height: 36%;
+    }
+}
+
+.profileHeaderContent {
+    width: 100%;
+    height: 100%;
+    background-image: url("/Content/images/profileHeader.png");
+    background-size: 100% 100%;
+    padding: 15px 14% 0 14%;
+}
+
+@media only screen and (max-width: 1100px) {
+    .profileHeaderContent {
+        padding: 15px 2% 0 2%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .profileHeaderContent {
+        padding: 15px;
+    }
+}
+
+.coverManagmentContainer {
+    padding-top: 10px;
+}
+
+.CNMS-addCoverContainer {
+    width: 40%;
+    height: 100%;
+}
+
+.coverManNavList {
+    width: 100%;
+    font-size: 18px;
+    display: inline;
+    padding: 0 10px;
+    color: white;
+}
+
+    .coverManNavList:hover {
+        border-right: 2px solid white;
+        color: white;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+
+.submitBtn {
+    background-color: transparent;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    float: right;
+}
+
+#biographyText {
+    max-width: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .CMNavListContainer {
+        text-align: center;
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .coverManagmentContainer {
+        padding: 0 10%;
+    }
+
+    .CNMS-addCoverContainer {
+        width: 100%;
+    }
+
+    .coverManNavList {
+        width: 50%;
+        display: inline;
+        text-align: center;
+        padding: 5px 20px;
+    }
+
+    #biographyText {
+        width: 600px !important;
+    }
+}
+
+
+/*=========================== PROFILE COVER SECTION =====================================*/
+
+/*======== USER INFO SECTION =========*/
+.aboutUserContainer{
+    padding:10px 25px;
+}
+.aboutUserContainer span {
+    display: inline-block;
+}
+
+.aboutUserContainer ul {
+    list-style-type: none;
+}
+
+.favArtistImg {
+    width: 100%;
+    height: auto;
+}
+/*======== USER INFO SECTION =========*/
+
+
+
+
+
+/* HEADER NAV */
+
+.profileHeaderNavigation {
+    width: 100%;
+    height: 15%;
+    text-align: center;
+}
+
+.backToHome i {
+    font-size: 35px;
+    color: white;
+    float: left;
+}
+
+.settings i {
+    font-size: 35px;
+    color: white;
+    float: left;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .backToHome i {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .settings i {
+        font-size: 25px;
+        padding-top: 5px;
+    }
+}
+
+.profileLogo {
+    height: 100%;
+    width: auto;
+    display: inline-block;
+}
+
+/* HEADER BODY */
+.profileHeaderBody {
+    width: 100%;
+    height: 85%;
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .profileHeaderBody {
+        padding-top: 10px;
+    }
+}
+/* HEADER BODY LEFT*/
+.profileHeaderBodyLeft {
+    width: 19%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .profileHeaderBodyLeft {
+        width: 35%;
+        padding-left: 5%;
+    }
+}
+
+.profilePicture {
+    width: 100%;
+    max-width: 115px;
+    height: 100%;
+    max-height: 130px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: auto;
+    position: absolute;
+    top: -15%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .profilePicture {
+        max-height: 118px;
+        max-width: 105px;
+    }
+}
+
+/* HEADER BODY MIDDLE*/
+
+.profileHeaderBodyMiddle {
+    width: 56%;
+    height: 100%;
+    position: relative;
+}
+
+@media only screen and (max-width: 1100px) {
+    .profileHeaderBodyMiddle {
+        padding-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .profileHeaderBodyMiddle {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .profileHeaderBodyMiddle {
+        width: 65%;
+        padding-left: 5%;
+        padding-top: 0;
+    }
+}
+
+.profileName {
+    width: 100%;
+    height: 28%;
+}
+
+    .profileName span {
+        font-size: 36px;
+    }
+
+@media only screen and (max-width: 768px) {
+    .profileName span {
+        font-size: 30px;
+    }
+}
+
+.infoIcons {
+    width: 5%;
+    height: 75%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 768px) {
+    .infoIcons {
+        width: 5%;
+    }
+}
+
+.infoIcons i {
+    display: block;
+    height: 21%;
+}
+
+.infoIconsText {
+    width: 85%;
+    height: 75%;
+    opacity: 0.6;
+}
+
+@media only screen and (max-width: 500px) {
+    .infoIconsText {
+        padding-left: 3%;
+    }
+}
+
+.infoIconsText span {
+    display: block;
+    height: 20%;
+}
+
+.subscribeBtn-lg span, .subscribeBtn-sm span {
+    display: inline-block;
+}
+
+.subscribeBtn-lg {
+    background-color: transparent;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid white;
+    width: 34%;
+    height: 14%;
+    color: white;
+    font-size: 18px;
+    opacity: 0.7;
+    outline: none;
+    position: absolute;
+    top: 6%;
+    left: 36%;
+    text-align:center;
+    color:white !important;
+}
+
+@media only screen and (max-width: 1250px) {
+    .subscribeBtn-lg {
+        left: 45%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .subscribeBtn-lg {
+        left: 62%;
+    }
+}
+
+.subscribeBtn-sm {
+    display: none;
+}
+
+    .subscribeBtn-sm span:nth-child(1), .subscribeBtn-lg span:nth-child(1) {
+        position: relative;
+        left: -7%;
+        display: inline-block;
+        font-size: 18px;
+    }
+
+.subscribeBtn-lg span:nth-child(2) {
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .subscribeBtn-lg {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .subscribeBtn-sm {
+        display: inline-block;
+        padding:5px 10px;
+        position: absolute;
+        top: 52%;
+        right: 25px;
+        background-color: transparent;
+        border: none;
+        border-radius: 10px;
+        border: 1px solid white;
+        height: 21%;
+        color: white;
+        text-align:center;
+        z-index:10;
+    }
+}
+/* HEADER BODY RIGHT*/
+.profileHeaderBodyRight {
+    display: block;
+    width: 25%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .profileHeaderBodyRight {
+        display: none;
+    }
+}
+
+.headerRight-lg {
+    text-align: right;
+    font-size: 24px;
+    padding-top: 1%;
+}
+
+    .headerRight-lg ul li a {
+        text-decoration: none;
+        padding-right: 30px;
+        color: white;
+    }
+
+        .headerRight-lg ul li a:hover {
+            border-right: 2px solid white;
+        }
+
+    .headerRight-lg ul {
+        list-style-type: none;
+    }
+
+@media only screen and (max-width: 768px) {
+    .headerRight-lg {
+        display: none;
+    }
+}
+
+.headerRight-sm {
+    display: none;
+}
+
+.coverContentHeader {
+    height: 13%;
+    width: 100%;
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .headerRight-sm {
+        display: block;
+    }
+}
+
+.headerRight-sm {
+    font-size: 19px;
+    padding-top: 15px;
+    text-align:center;
+}
+
+    .headerRight-sm ul li {
+        display: inline-block;
+        text-align: center;
+        padding-bottom: 5px;
+        margin:0 6px;
+    }
+
+        .headerRight-sm ul li a {
+            text-decoration: none;
+            color: white;
+            display: inline;
+            font-weight: lighter;
+            opacity: 0.7;
+        }
+
+@media only screen and (max-width: 768px) {
+    .headerRight-lg ul li:hover {
+        border-bottom: 2px solid white;
+        opacity: 1;
+    }
+}
+
+
+.headerRight-lg ul {
+    list-style-type: none;
+}
+
+/*=========================== PROFILE PLAYLIST SECTION =====================================*/
+.playlistContainer {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    padding:0 15px;
+}
+.playlistHeader{
+    height:50px;
+}
+.itemHeader {
+    padding-right: 13px;
+}
+
+.itemContent {
+    position: relative;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
+}
+
+.playlistInfo {
+    position: absolute;
+    right: 0;
+    background-color: rgba(0,0,0,.8);
+    text-align: center;
+    padding: 15px 0;
+    width: 35%;
+    height: 100%;
+    top: 0;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.4);
+}
+
+.playlistCoverImg {
+    display: inline-block;
+    width: 46%;
+    height: auto;
+    margin: 2px;
+}
+
+#playBtn {
+    display: none;
+    position: absolute;
+    font-size: 42px ;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    cursor:pointer;
+
+}
+
+.playBtn {
+    display: none;
+    position: absolute;
+    font-size: 42px !important;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    cursor:pointer;
+}
+
+.play-btn-hoverEvent{
+    display: none !important;
+    position: absolute;
+    font-size: 42px !important;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+#pl-sm-nav{
+    position:absolute;
+    bottom:0;
+    left:0;
+    top:35%;
+    display:none;
+    background-color:#212121;
+    padding:120px 20px;
+    position:fixed;
+}
+#PLcoverResult{
+    display:inline-block;
+}
+#PLcoverResult div.col-md-4 {
+    padding: 10px;
+}
+#PLcoverResult div.col-md-4 img {
+    width:100%;
+    height:auto;
+    margin-bottom:7px;
+}
+#PLcoverResult div.col-md-4 i {
+    float:right;
+}
+/* ============== PLAYLIST MODAL ================ */
+#testVideoModal {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .95) 0%, rgba(22, 23, 26, .95) 75%, rgba(22, 23, 26, .95) 100%);
+}
+
+.modalVideoPlayContainer {
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+    .modalVideoPlayContainer {
+        height: 35%;
+    }
+}
+
+
+.videoAndCommentSection {
+    width: 60%;
+    height: 74%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: relative;
+    margin: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .videoAndCommentSection {
+        height: 100%;
+        width: 100%;
+    }
+}
+/*======================= COMMENT SECTION =======================*/
+#commentContainer {
+    display: none;
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 0;
+    z-index: 3;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    border-left:1px solid rgba(255,255,255,.5);
+}
+.commentContainer {
+    display: none;
+    position: absolute;
+    width: 35%;
+    height: 100%;
+    right: 0;
+    z-index: 3;
+    overflow: hidden;
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    border-left:1px solid rgba(255,255,255,.5);
+}
+
+.postCommentSection {
+    height: 20%;
+    width: 100%;
+    padding: 10px 10px;
+    display: table;
+}
+
+.postCommentSection-content {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    position:relative;
+}
+
+.commentContent-left {
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding: 2px;
+}
+
+.commentProfileIcon {
+    max-height: 51px;
+    height: 51px;
+    max-width: 51px;
+    width: 51px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+
+
+.commentContent-right {
+    width: 80%;
+    float: left;
+    max-height: 52px;
+    position: relative;
+    padding: 5px;
+}
+
+.postCommentForm {
+    width: 95%;
+}
+
+.commentTxt {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.5);
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    color: white;
+}
+
+#commentSubmit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 27px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 50%;
+    max-height: 50px;
+    max-width: 50px;
+    width: 50px;
+}
+
+    #commentSubmit input {
+        padding: 10px;
+        display: inline-block;
+        background-color: transparent;
+        border: none;
+    }
+
+.divider-90 {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(255,255,255,.12);
+    margin: 0 auto;
+}
+
+#small-comment-container{
+    height:60%;
+    display:none;
+}
+
+.commentSection {
+    width: 100%;
+    height: 72%;
+    overflow-y: auto;
+    padding: 15px;
+    font-weight: 400;
+    margin-bottom: -2px;
+}
+
+.commentSection::-webkit-scrollbar {
+    width: .7em;
+
+}
+
+.commentSection::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color:rgba(255,255,255,.12);
+    border-radius:150px;
+}
+
+.commentSection::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+    border-radius:150px;
+
+}
+
+.commentDiv {
+    width: 100%;
+    padding-bottom: 25px;
+}
+.commentPicture-container{
+    margin-right:5px;
+}
+
+.commentUser{
+    padding:0 5px;
+    font-size:14px;
+}
+.commentDate{
+    font-size:11px;
+    opacity:0.7;
+
+}
+.commentDiv p{
+    opacity:0.7;
+}
+
+.commentIcon{
+    position:absolute;
+    right:-180px;
+    bottom:0;
+}
+
+.commentIcon-sm {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .commentIcon-sm {
+        display: block;
+    }
+
+    .commentIcon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #commentSection-sm {
+        display: block;
+    }
+}
+
+#modalVideoPlayContainer {
+    height: 100%;
+}
+
+.modalVideoPlayContainer iframe {
+    width: 100%;
+    height: 100%;
+    float: left;
+    border: none;
+    box-shadow: 0 4px 80px 6px rgba(0, 0, 0, .85);
+}
+
+.videoSocialSection {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.rateSection {
+    height: 8%;
+    width: 100%;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+
+.currentRaiting {
+    width: 15%;
+    height: 100%;
+    float: left;
+    padding-left: 5px;
+}
+
+.userRaiting {
+    width: 85%;
+    height: 100%;
+    float: left;
+    text-align: right;
+    padding-right: 20px;
+}
+
+label.raitingStar:before {
+    content: '\f005';
+    font-family: FontAwesome;
+    font-size: 18px;
+}
+
+
+.rateSection .raitingStar {
+    color: white;
+    width: 10%;
+    height: auto;
+    margin-bottom: -5px;
+}
+
+
+.videoSocialSection .stars {
+    width: 100%;
+    float: left;
+    opacity:0.7;
+}
+
+
+
+.commentUserIcon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+
+.commentBr {
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 95%;
+    margin: 0 auto 3px auto;
+    opacity: 0.5;
+}
+
+.commentDiv p {
+    margin-left: 55px;
+    word-wrap: break-word;
+    font-size: 11px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+    .commentDiv p:nth-child(3), .commentDiv p:nth-child(2) {
+        opacity: 0.7;
+    }
+
+    .commentDiv p:nth-child(4) {
+        font-size: 14px;
+    }
+
+    .commentDiv p:nth-child(4) {
+        font-size: 14px;
+    }
+
+
+.videoSocialSection .commentIcon {
+    width: 78%;
+    float: left;
+    height: 100%;
+    text-align: right;
+    padding-top: 2px;
+}
+
+.modalVideoContainer {
+    width: 90%;
+    height: 19%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 20px;
+}
+/*======== STAR RAITING CSS ==========*/
+div.stars {
+    display: inline-block;
+}
+
+input.star {
+    display: none;
+}
+
+label.star {
+    float: right;
+    padding: 3px;
+    color: white;
+    transition: all .2s;
+}
+
+.stars input.star:checked ~ label.star:before {
+    content: '\f005';
+    color: white;
+    transition: all .25s;
+}
+
+input.star-5:checked ~ label.star:before {
+    color: white;
+    text-shadow: 0 0 10px white;
+}
+
+input.star-1:checked ~ label.star:before {
+    color: white;
+}
+
+label.star:hover {
+    transform: rotate(-15deg) scale(1.3);
+}
+
+label.star:before {
+    content: '\f006';
+    font-family: FontAwesome;
+}
+
+
+
+
+
+.rating { height: 20px; padding:0px; margin:0px; }
+.rating li { list-style: none; float: left; width: 20px; height: 20px; padding:0px; margin:0px;}
+.rating li a { display: block; width: 20px; height: 20px; padding:0px; margin:0px; overflow: hidden; text-indent: -100px; background-image: url(rating.png); background-repeat: no-repeat; text-decoration:none; }
+.rating li a:hover { background-color: transparent; text-decoration: none; }
+.rating li .hover { background-position: 0px -20px; }
+.rating li .full { background-position: 0px -40px; }
+/*======== STAR RAITING CSS ==========*/
+
+.fa-comments:hover {
+    transform: rotate(-15deg) scale(1.3);
+}
+
+.fa-comments:checked {
+    text-shadow: 0 0 10px white;
+}
+
+
+.modalVideoContainer div {
+    display: none;
+}
+
+/*======== MODAL SLIDER CSS ==========*/
+
+.sliderArrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    font-size: 28px;
+    font-weight: 100;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+    .sliderArrow:hover {
+        opacity: 1;
+    }
+
+#moveLeft {
+    left: 3px;
+}
+
+#moveRight {
+    right: 3px;
+}
+/*======== MODAL SLIDER CSS ==========*/
+
+#closeModalBtn {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.playListThumbnailImg {
+    width: 100%;
+    height: auto;
+}
+/* ============== PLAYLIST MODAL ================ */
+
+
+
+
+
+/*=========================== PROFILE PLAYLIST SECTION =====================================*/
+
+
+
+
+
+
+
+
+/*========================================  PROFILE SECTION  ========================================*/
+
+
+
+
+
+/*========================================  COVER SECTION  ========================================*/
+/*CONTENT SECTION*/
+.profileContent {
+    height: 55%;
+    width: 100%;
+    background-color: #212121;
+    overflow: auto;
+    padding: 15px 14% 0 14%;
+}
+
+#profileContentContainer::-webkit-scrollbar {
+    width: 1em;
+}
+
+#profileContentContainer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+#profileContentContainer::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+@media only screen and (max-width: 768px) {
+    .profileContent {
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .profileContent {
+        padding: 15px 0 0 0;
+    }
+}
+
+.headerRight-sm {
+    height: 13%;
+}
+
+@media only screen and (max-width: 768px) {
+    .profileContent {
+        height: 64%;
+    }
+}
+
+.profileContentData {
+    height: 100%;
+}
+
+.coversListProfile {
+    height: 100%;
+}
+
+#coverVideoContainer {
+    height: 87%;
+}
+
+.videoContainer {
+    padding: 12px 3% 12px 3%;
+    display:inline-block;
+
+}
+
+@media only screen and (max-width: 991px) {
+    .videoContainer {
+        padding-top: 3%;
+        border-bottom: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .videoContainer {
+        border-left: none;
+        border-bottom: 1px solid rgba(255, 255, 255, .1);
+        width: 100%;
+        height: 25%;
+    }
+}
+
+.coverVideo {
+    height: 65%;
+    box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media only screen and (max-width: 991px) {
+    .coverVideo {
+        height: 100%;
+    }
+}
+
+.coverVideo iframe {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    border: 0;
+}
+
+
+/* COVER VIDEO CONTENT */
+
+.coverVideoContent {
+    height: 35%;
+    padding: 0;
+    opacity: 0.85;
+}
+
+@media only screen and (max-width: 991px) {
+    .coverVideoContent {
+        height: 100%;
+        padding-left: 17px;
+    }
+}
+
+
+.coverVideoContent div:nth-child(1) {
+    width: 100%;
+    height: 40%;
+    font-size: 16px;
+    padding-top: 8px;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 991px) {
+    .coverVideoContent div:nth-child(1) {
+        height: 15%;
+        padding-top: 0;
+    }
+}
+
+
+.coverVideoContent div:nth-child(2) {
+    width: 100%;
+    height: 60%;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+
+
+.coverVideoContent div:nth-child(3) {
+    display: none;
+    width: 100%;
+    height: 25%;
+    font-size: 18px;
+    vertical-align: bottom;
+}
+
+@media only screen and (max-width: 991px) {
+    .coverVideoContent div:nth-child(3) {
+        display: block;
+    }
+}
+
+.coverVideoContent div:nth-child(3) span {
+    width: 33.33%;
+    float: left;
+    vertical-align: bottom;
+}
+
+@media only screen and (max-width: 768px) {
+    .rateSection {
+        width: 100%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .currentRaiting {
+        width: 25%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .userRaiting {
+        width: 75%;
+        float: left;
+    }
+}
+
+
+
+
+/*===================================  END OF COVER SECTION  ======================================*/
+
+
+
+/*========================================  CNMS SECTION  ========================================*/
+#CNMSLeft {
+}
+
+#closeBtn {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+#CNMSContent {
+    padding: 40px;
+}
+
+#navBarBtn {
+    display: none;
+}
+#navBarBtn-ms{
+    display:none;
+    margin:20px 20px;
+}
+@media only screen and (max-width: 768px) {
+    #navBarBtn-ms {
+        display:block;
+    }
+}
+#profilePictureChange {
+    margin: 2% auto;
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+    max-height: 220px;
+    max-width: 220px;
+    display: inline-block;
+    padding: 25px;
+}
+
+#upload {
+    padding-left: 25px;
+    width: 75%;
+}
+
+#navigationPanel {
+    padding: 25px;
+    font-size: 19px;
+}
+
+.submitBtnCNMS {
+    background-color: transparent;
+    border: none;
+    border-radius: 9px;
+    border: 1px solid white;
+    padding: 13px;
+    color: white;
+    font-size: 14px;
+    opacity: 0.7;
+    outline: none;
+    padding: 5px;
+    margin-top: 10px;
+    width: 14%;
+    text-align:center;
+}
+
+#CNMSgenreList {
+    list-style-type: none;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #CNMSContent {
+        padding: 20px;
+        padding-left: 55px;
+    }
+
+    #CNMSLeftContent {
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #212121;
+        z-index: 10;
+        height: 100%;
+    }
+
+    #CNMSLeft {
+        position: absolute;
+        height: 100%;
+    }
+
+    .personalInfoChangeContainer {
+        margin-bottom: 40px;
+    }
+
+    #navBarBtn {
+        display: block;
+        font-size: 27px;
+        text-align: center;
+        width: 100%;
+        color: white;
+        padding-top: 20px;
+        padding-left: 14px;
+        cursor: pointer;
+        position: absolute;
+        z-index: 1000;
+    }
+
+    #imageContainer {
+        text-align: center;
+    }
+
+    #profilePictureChange {
+        max-height: 150px;
+        max-width: 150px;
+        margin: 0 auto;
+    }
+
+    #upload {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .submitBtnCNMS {
+        width: 40%;
+    }
+
+    .submitBtnCNMS {
+        float: right;
+    }
+}
+/*========================= COVER FEED SECTION =========================*/
+#searchModal{
+    display:none;
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.8);
+    z-index:10;
+}
+#searchModal-content{
+    width:50%;
+    height:100%;
+    padding-top:120px;
+    margin:0 auto;
+}
+#search-result{
+    overflow:auto;
+}
+#result-row .row .col-md-3{
+    display:table;
+    margin-bottom:20px;
+
+}
+#search-result-left{
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+
+}
+#search-result-left img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+}
+#search-result-right{
+    display:table-cell;
+    vertical-align:middle;
+}
+#closeSearch{
+    position:absolute;
+    right:20px;
+    top:20px;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
+/*RADIO BUTTONS*/
+
+.section {
+  padding-left: 150px;
+}
+.section::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.section input[type="radio"],
+.section input[type="checkbox"]{
+  display: none;
+}
+.container {
+  float:right;
+  margin-left:30px;
+  text-align:right;
+  width:100%;
+}
+.container label {
+  position: relative;
+}
+.container span{
+    padding:0;
+}
+
+/* Base styles for spans */
+.container span::before,
+.container span::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/* Radio buttons */
+.container span.radio:hover {
+  cursor: pointer;
+}
+.container span.radio::before {
+  left: -52px;
+  width: 45px;
+  height: 25px;
+  background-color: #A8AAC1;
+  border-radius: 50px;
+}
+.container span.radio::after {
+  left: -49px;
+  width: 17px;
+  height: 17px;
+  border-radius: 10px;
+  background-color: #6C788A;
+  transition: left .25s, background-color .25s;
+}
+input[type="radio"]:checked + label span.radio::after {
+  left: -27px;
+  background-color: #EBFF43;
+}
+
+#cover-feed-container{
+    width:100%;
+    color:white;
+    overflow: auto;
+    height: 100vh;
+
+}
+#cover-feed-container::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+#cover-feed-subs{
+    height:100%;
+    width:25%;
+    float:left;
+    color:white;
+    padding: 80px 40px;
+    position:fixed;
+    left:0;
+
+}
+#mainSearch{
+    cursor:pointer;
+    font-size: 22px;
+}
+#cover-feed-covers{
+    width:50%;
+    float:left;
+    margin-left: 25%;
+}
+#cover-feed-playlist{
+    height:100%;
+    width:25%;
+    float:left;
+    position:fixed;
+    right:0;
+    overflow-y:auto;
+    padding-top: 80px;
+
+}
+
+#cover-feed-playBtn-ss{
+    display:none;
+}
+
+@media only screen and (max-width: 768px) {
+    #cover-feed-covers{
+    width:100%;
+    margin:0;
+}
+#cover-feed-playlist{
+    position:absolute;
+    right:0;
+    width:80%;
+    display:none;
+
+}
+#cover-feed-subs{
+    position:absolute;
+    left:0;
+    width:80%;
+    display:none;
+}
+   #cover-feed-playBtn-ls{
+       display:none;
+   }
+   #cover-feed-playBtn-ss{
+    display:block;
+}
+   #cover-feed-playBtn-ss #playBtn{
+    display:block;
+}
+}
+
+/*====================== END OF COVER FEED SECTION =====================*/

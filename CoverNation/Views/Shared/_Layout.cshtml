@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+
+    <!-- CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/CNStyle.css" rel="stylesheet" />
+    <link href="~/Content/fontawesome-stars.css" rel="stylesheet" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- JS -->
+    <script src="~/Scripts/modernizr-2.6.2.js"></script>
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/jquery-ui-1.12.1.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="~/Scripts/jquery.barrating.min.js"></script>
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
+
+    <style>
+        .navbar-header {
+            width: 100% !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!--- Cover modal -->
+    <div id="testVideoModal">
+
+    </div>
+
+    <!--- Loader modal -->
+    <div id="infinity-loader">
+        <img src="~/Content/images/Infinity.gif" />
+    </div>
+
+    @RenderBody()
+
+</body>
+
+</html>
+
+<!-- CUSTON JS -->
+<script src="~/Scripts/CN-custom.js"></script>

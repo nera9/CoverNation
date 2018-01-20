@@ -1,0 +1,26 @@
+﻿@model CoverNation.ViewModel.CoverManagmentViewModel.CoverManagmentAddCover
+<div class="coverManagmentContainer col-md-12">
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 CMNavListContainer">
+        @Ajax.ActionLink("Add cover", "AddCover", null, new AjaxOptions { UpdateTargetId = "coverManagmentContent" }, new { @class="coverManNavList target", id="addCoverBtn" })<br />
+        @Ajax.ActionLink("Delete cover", "DeleteCover",null, new AjaxOptions { UpdateTargetId = "coverManagmentContent"}, new { @class = "coverManNavList" })
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9" id="coverManagmentContent"> 
+        @{ Html.RenderPartial("_addCover", Model); }
+    </div>
+
+</div><!-- end of coverManagmentContainer -->
+
+<script>
+    var items = document.getElementsByClassName("coverManNavList");
+    items[0].style.borderRight = "2px solid white";
+    $(".coverManNavList").on("click", function () {        
+        for (var i = 0; i < items.length; i++) {
+
+            items[i].style.borderRight = "none";
+            items[i].style.color = "white";
+        }
+        this.style.borderRight = "2px solid white";
+
+    });
+</script>

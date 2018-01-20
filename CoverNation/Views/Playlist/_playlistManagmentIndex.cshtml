@@ -1,0 +1,51 @@
+﻿<div class="PMLeft col-md-3">
+    <div id="nav-lg">
+        @Ajax.ActionLink("Create new playlist", "AddNew", null, new AjaxOptions { UpdateTargetId = "PMRight" }, new { @class = "nav-li" })<br />
+        @Ajax.ActionLink("Add to existing", "CoverToPlaylist", null, new AjaxOptions { UpdateTargetId = "PMRight" }, new { @class = "nav-li" })<br />
+        @Ajax.ActionLink("Update existing", "Index", null, new AjaxOptions { UpdateTargetId = "PMRight", OnComplete = "clean" }, new { @class = "nav-li" })
+    </div>
+    <div id="navBarBtn-ms">
+        <i class="fa fa-bars" aria-hidden="true"></i><span>Nav bar</span>
+    </div>
+</div>
+<div class="PMRight col-md-9" id="PMRight">
+    
+    @{Html.RenderAction("AddNew");}
+</div>
+<div id="pl-sm-nav">
+    <i class="fa fa-times" id="closeModalBtn"></i>
+    @Ajax.ActionLink("Create new playlist", "AddNew", null, new AjaxOptions { UpdateTargetId = "PMRight" }, new { @class = "nav-li" })<br />
+    @Ajax.ActionLink("Add to existing", "CoverToPlaylist", null, new AjaxOptions { UpdateTargetId = "PMRight" }, new { @class = "nav-li" })<br />
+    @Ajax.ActionLink("Update existing", "Index", null, new AjaxOptions { UpdateTargetId = "PMRight", OnComplete = "clean" }, new { @class = "nav-li" })
+</div>
+ <script>
+     clean();
+     var items = document.getElementsByClassName("nav-li");
+     items[0].style.borderRight = "2px solid white";
+     $(".nav-li").on("click", function () {
+         if ($(window).width() < 768) {
+             $("#pl-sm-nav").hide();
+         }
+             for (var i = 0; i < items.length; i++) {
+
+                 items[i].style.borderRight = "none";
+                 items[i].style.color = "white";
+             }
+             this.style.borderRight = "2px solid white";
+
+     });
+     function clean() {
+         $("#playlist-header").remove();
+     }
+     if ($(window).width() < 768) {
+         $("#nav-lg").remove();
+     }
+     $("#navBarBtn-ms").on("click", function () {
+         $("#pl-sm-nav").show();
+     });
+     $("#closeModalBtn").on("click", function () {
+         $("#pl-sm-nav").hide();
+     });
+
+
+ </script>

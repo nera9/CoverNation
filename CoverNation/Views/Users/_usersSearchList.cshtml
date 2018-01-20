@@ -1,0 +1,7 @@
+﻿@model CoverNation.ViewModel.UserInfo.UserSearchList
+
+@foreach (var item in Model.SearchList)
+{ 
+    Html.RenderPartial("_usersSearch", item);   
+}
+

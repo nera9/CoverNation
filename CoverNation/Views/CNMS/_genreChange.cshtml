@@ -1,0 +1,34 @@
+﻿@model CoverNation.ViewModel.CNMSViewModel.UserGenres
+<h3 style="color:white;">Add/remove genre</h3>
+
+<ul id="CNMSgenreList">
+    @foreach (var genre in Model.Genres)
+    {
+        <li>
+            <a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#genreList" href="/CNMS/DeleteGenreFromUser?genreId=@genre.GenreId">
+                <i class="fa fa-trash-o" aria-hidden="true"></i>
+            </a>  
+            <span>@genre.GenreName</span>
+        
+        </li>
+    }
+</ul>
+
+    <div class="formGroup">
+        @Html.LabelFor(model => model.NewGenre, htmlAttributes: new { @class = "formLabel col-md-12" })
+        <div class="col-md-10">
+           @Html.DropDownListFor(x => x.GenreId, Model.NewGenre, new { @class = "loginInput" })
+            @Html.ValidationMessageFor(model => model.NewGenre, "", new { @class = "text-danger" })
+        </div>
+    </div>
+<input type="submit" id="genreSubmit" class="submitBtnCNMS" />
+
+<script>
+    $("#genreSubmit").on("click", function () {
+        var selected = $("option:selected").attr("value");
+        $.post('/CNMS/AddGenreToUser', { GenreId: selected },
+               function (returnedData) {
+                   $("#genreList").html(returnedData);
+               });
+    });
+</script>

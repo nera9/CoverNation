@@ -1,0 +1,25 @@
+﻿@model CoverNation.ViewModel.ProfileViewModel
+@using CoverNation.Helper
+
+@{
+    ViewBag.Title = "Profile";
+}
+<style>
+    .test {
+        width: 150px;
+        height: 150px;
+    }
+</style>
+<h2>Profile</h2>
+
+<h2>Dobrodošli, Admin - @Model.FirstName </h2>
+@if (!Model.IsVisitor)
+{
+    <button>Izmjeni</button>
+}
+else
+{
+    <button>Ne mozes</button>
+}
+<br /><br />
+@Html.ActionLink("Add Genre", "AddGenre", "Administrator", new { @class = "btn btn-primary" })

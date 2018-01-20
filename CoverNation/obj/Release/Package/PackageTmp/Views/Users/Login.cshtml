@@ -1,0 +1,48 @@
+﻿@model CoverNation.ViewModel.LoginViewModel
+
+@using (Html.BeginForm("Login", "Users", FormMethod.Post, new { autocomplete = "off" }))
+{
+    @Html.AntiForgeryToken()
+
+
+        <div class="loginContainer">
+            <span class="logoText">Cover Nation</span>
+            <div class="formGroup">
+                @Html.ValidationSummary(true, "", new { @class = "login-text-danger" })
+
+                @Html.LabelFor(model => model.Username, htmlAttributes: new { @class = "formLabel col-xs-12" })
+                <div class="col-xs-12 col-md-10">
+                    @Html.EditorFor(model => model.Username, new { htmlAttributes = new { @class = "loginInput" } })
+                    <div class="valMsgContainer">
+                      @Html.ValidationMessageFor(model => model.Username, "", new { @class = "login-text-danger" }) 
+                        @if (@Html.ValidationMessageFor(model => model.Username).ToHtmlString().Contains("required"))
+                        {
+                            <img src="~/Content/images/error-icon.png" class="errorImg" />
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="formGroup">
+                @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "formLabel col-xs-12" })
+                <div class="col-xs-12 col-md-10">
+                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "loginInput" } })
+                    <div class="valMsgContainer">
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "login-text-danger" })
+                        @if (@Html.ValidationMessageFor(model => model.Password).ToHtmlString().Contains("required"))
+                        {
+                            <img src="~/Content/images/error-icon.png" class="errorImg" />
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="formGroup">
+                <div class="col-xs-12 col-md-10">
+                        @Html.CheckBoxFor(model => model.RemeberMe, htmlAttributes: new { @class = "remeberMeCheckBox" })
+                        <span class="formLabel">Remeber me</span>
+                        <input type="submit" value="Login" class="btn btn-default loginBtn"/>
+                </div>
+            </div>
+        </div>
+}
+
+

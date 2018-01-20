@@ -1,0 +1,9 @@
+﻿@model CoverNation.ViewModel.CNMSViewModel.FavouriteArtistsList
+
+@foreach (var artist in Model.artistList)
+{
+    Html.RenderPartial("_favouriteArtistItem", artist);
+}
+
+
+

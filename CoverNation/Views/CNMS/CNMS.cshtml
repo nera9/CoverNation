@@ -1,0 +1,85 @@
+﻿@model CoverNation.ViewModel.CNMSViewModel.CheckUserType
+@{
+    ViewBag.Title = "Cover nation managment system";
+}
+<div class="col-md-12" style="position:relative; float:left;">
+    <div class="col-xs-1 col-md-2" id="CNMSLeft">
+        <div id="navBarBtn">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+        <div id="CNMSLeftContent">
+            <i class="fa fa-times" aria-hidden="true" id="closeBtn"></i>
+
+            <div id="imageContainer">
+                @{ Html.RenderAction("ChangeProfile");}
+            </div>
+            <div id="navigationPanel">
+                @Ajax.ActionLink("Change personal info", "ChangePersonalInfo", null,new AjaxOptions { UpdateTargetId = "CNMSContent" }, new { @class="CNMSNavgation-li" })<br />
+                @Ajax.ActionLink("Change password", "ChangePassword", null, new AjaxOptions { UpdateTargetId = "CNMSContent" }, new { @class = "CNMSNavgation-li" })<br />
+                @Ajax.ActionLink("Favoruite artist", "FavouriteArtistEdit", null, new AjaxOptions { UpdateTargetId = "CNMSContent" }, new { @class = "CNMSNavgation-li" })<br />
+                @if (Model.IsMusician)
+                {
+                    @Ajax.ActionLink("Education", "AddEducationItem", null, new AjaxOptions { UpdateTargetId = "CNMSContent" }, new { @class = "CNMSNavgation-li" })<br />
+                    @Ajax.ActionLink("Biography", "UpdateBiography", null, new AjaxOptions { UpdateTargetId = "CNMSContent" }, new { @class = "CNMSNavgation-li" })
+                }<br />
+                <a style="display:inline-block;margin-top:100px;" href="/Users/Profile">Back to profile</a>
+            </div>
+        </div>
+        
+    </div>
+    <div class="col-xs-11 col-md-10" id="CNMSContent">
+        @{
+            Html.RenderAction("ChangePersonalInfo");
+        }
+    </div>
+</div>
+
+<script>
+    $("document").ready(function () {
+        $("#navBarBtn").on("click", function () {
+            $("#CNMSLeftContent").fadeIn();
+            $("#closeBtn").show();
+            $("#navBarBtn").hide();
+            $("#CNMSLeft").width(350);
+
+        });
+        $("#closeBtn").on("click", function () {
+            closeNavigation();
+        });
+        function closeNavigation() {
+            document.getElementById("CNMSLeft").style.width = "8.333333333333332%";
+            $("#CNMSLeftContent").hide();
+            $("#navBarBtn").show();
+        }
+        $("#upload").change(function () {
+            var xhr = new XMLHttpRequest();
+            var fd = new FormData();
+            fd.append("uploadImg", document.getElementById('upload').files[0]);
+            xhr.open("POST", "/CNMS/ChangeProfile", true);
+            xhr.send(fd);
+            xhr.addEventListener("load", function (event) {
+                //alert(event.target.response);
+                $("#imageContainer").html(event.target.response);
+            }, false);
+        });
+       
+
+        $(".CNMSNavgation-li").on("click", function () {
+            if ($(window).width() < 768) {
+                closeNavigation();
+            }
+                var items = document.getElementsByClassName("CNMSNavgation-li");
+                for (var i = 0; i < items.length; i++) {
+
+                    items[i].style.borderRight = "none";
+                    items[i].style.color = "white";
+                }
+                this.style.borderRight = "2px solid white";
+            
+            
+        });
+
+        
+       
+    });
+</script>

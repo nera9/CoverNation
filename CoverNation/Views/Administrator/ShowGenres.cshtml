@@ -1,0 +1,29 @@
+﻿@using CoverNation.ViewModel
+@model CoverNation.ViewModel.GenreIndexVM
+
+<h2>Show Genres</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Genre ID</th>
+            <th>Genre Name</th>
+            <th>Genre Image</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (GenreRow x in Model.GenresList)
+        {
+            <tr>
+                <td>@x.GenreId</td>
+                <td>@x.GenreName</td>
+                <td>@x.GenreImage</td>
+               <td>
+                    @Html.ActionLink("Edit Genre", "EditGenre", new { id = x.GenreId }, new { @class = "btn btn-success" })
+                    @Html.ActionLink("Delete Genre", "DeleteGenre", new { id = x.GenreId }, new { @class = "btn btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+@Html.ActionLink("Add New Genre", "AddGenre",new { }, new { @class = "btn btn-primary" })

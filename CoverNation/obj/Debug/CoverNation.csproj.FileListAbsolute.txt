@@ -1,0 +1,873 @@
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\csc.exe
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\csc.exe.config
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\csc.rsp
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\csi.exe
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\csi.rsp
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\System.AppContext.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\vbc.exe
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\vbc.exe.config
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\vbc.rsp
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\VBCSCompiler.exe
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\CoverNation.dll.config
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\CoverNation.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\CoverNation.pdb
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\EntityFramework.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\EntityFramework.SqlServer.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Helpers.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Mvc.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Razor.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Deployment.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Webpages.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Razor.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\EntityFramework.xml
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\EntityFramework.SqlServer.xml
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Razor.xml
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Webpages.xml
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Deployment.xml
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Razor.xml
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Helpers.xml
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\bin\System.Web.Mvc.xml
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\obj\Debug\CoverNation.dll
+c:\users\muhamed al-naqli\documents\visual studio 2017\Projects\CoverNationSolution\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\csc.exe
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\csi.exe
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\CoverNation.dll.config
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\EntityFramework.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\EntityFramework.xml
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\csc.exe
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\csi.exe
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\CoverNation.dll.config
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\CoverNation.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\CoverNation.pdb
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\EntityFramework.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\EntityFramework.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\csc.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\csi.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\CoverNation.dll.config
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\EntityFramework.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\EntityFramework.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 13-07\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\csc.exe
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\csi.exe
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\CoverNation.dll.config
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\CoverNation.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\CoverNation.pdb
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\EntityFramework.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\EntityFramework.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Muhamed Al-Naqli\Desktop\CoverNationSolution - 13-07\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\csc.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\csi.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\CoverNation.dll.config
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\EntityFramework.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\EntityFramework.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution - 18-07\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\csc.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\csi.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\CoverNation.dll.config
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\EntityFramework.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\EntityFramework.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 03-8\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\csc.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\csi.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\CoverNation.dll.config
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\EntityFramework.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\EntityFramework.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\obj\Debug\CoverNation.Migrations.InitialCreate.resources
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\obj\Debug\CoverNation.csproj.GenerateResource.Cache
+C:\Users\Haris\Desktop\CoverNationSolution - 05-8\CoverNation\obj\Debug\CoverNation.Migrations.coverUpdated.resources
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll.config
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.pdb
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.InitialCreate.resources
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.coverUpdated.resources
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csproj.GenerateResource.Cache
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Haris\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.exe
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll.config
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.pdb
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.xml
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.InitialCreate.resources
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.coverUpdated.resources
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csproj.GenerateResource.Cache
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Almedina Mezit\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.addGenreiD.resources
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.rsp
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.exe
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.rsp
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll.config
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.pdb
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.xml
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.xml
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.InitialCreate.resources
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.coverUpdated.resources
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.addGenreiD.resources
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csproj.GenerateResource.Cache
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.nesto.resources
+C:\Users\my_mi\Desktop\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations._124431.resources
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.exe
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll.config
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.pdb
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.xml
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.first.resources
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csproj.GenerateResource.Cache
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.test2.resources
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.coverChange.resources
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.coverChange2.resources
+C:\Users\Haris\Desktop\CN-04-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.exe
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll.config
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.pdb
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.xml
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.nestio.resources
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csproj.GenerateResource.Cache
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.like.resources
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.likeRaiting.resources
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.nekoIme.resources
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.comment.resources
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.instrument.resources
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.unsubrsibeOptional.resources
+C:\Users\Haris\Desktop\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.unsubrsibeOptional2.resources
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.nestio.resources
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.like.resources
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.likeRaiting.resources
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.nekoIme.resources
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.comment.resources
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.instrument.resources
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.unsubrsibeOptional.resources
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.unsubrsibeOptional2.resources
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csproj.GenerateResource.Cache
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.rsp
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.exe
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.rsp
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll.config
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.pdb
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.xml
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.xml
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\ajdin\Desktop\CN\CN-05-09\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.rsp
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.exe
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.rsp
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll.config
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.pdb
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.xml
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.xml
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.nestio.resources
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.like.resources
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.likeRaiting.resources
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.nekoIme.resources
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.comment.resources
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.instrument.resources
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.unsubrsibeOptional.resources
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.unsubrsibeOptional2.resources
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csproj.GenerateResource.Cache
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\Haris\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.pdb
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.exe.config
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csc.rsp
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.exe
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\csi.rsp
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.AppContext.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.exe.config
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\vbc.rsp
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\CoverNation.pdb
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.xml
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\EntityFramework.SqlServer.xml
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Razor.xml
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.xml
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Deployment.xml
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Webpages.Razor.xml
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Helpers.xml
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\bin\System.Web.Mvc.xml
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csprojResolveAssemblyReference.cache
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.nestio.resources
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.like.resources
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.likeRaiting.resources
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.nekoIme.resources
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.comment.resources
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.instrument.resources
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.unsubrsibeOptional.resources
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.Migrations.unsubrsibeOptional2.resources
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csproj.GenerateResource.Cache
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.csproj.CoreCompileInputs.cache
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.dll
+C:\Users\my_mi\Desktop\CN final\CoverNationSolution - 06-8\CoverNation\obj\Debug\CoverNation.pdb

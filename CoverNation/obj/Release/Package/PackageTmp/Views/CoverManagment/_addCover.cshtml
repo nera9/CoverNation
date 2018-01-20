@@ -1,0 +1,25 @@
+﻿@model CoverNation.ViewModel.CoverManagmentViewModel.CoverManagmentAddCover
+
+@using (Ajax.BeginForm("AddCover", null, new AjaxOptions { UpdateTargetId = "coverManagmentContent", InsertionMode = InsertionMode.Replace, OnSuccess = "clearAddCoverFields()" }, new { autocomplete = "off" }))
+{
+    if (ViewData["succesMessage"] != null)
+    {
+        <span class="alert-success">@ViewData["succesMessage"]</span>
+        <br />
+    }
+
+    <div class="CNMS-addCoverContainer">
+        @Html.LabelFor(x => x.CoverName)
+        @Html.TextBoxFor(x => x.CoverName, new { @class = "loginInput" })
+        <br />
+        @Html.LabelFor(x => x.VideoURL)
+        @Html.TextBoxFor(x => x.VideoURL, new { @class = "loginInput" })
+        <br />
+        @Html.LabelFor(x => x.GenreId)
+        @Html.DropDownListFor(x => x.GenreId, Model.GenresList, new { @class = "loginInput" })
+        <br />
+        <br />
+
+        <input type="submit" class="submitBtn" />
+    </div><!-- end of CNMS-addCoverContainer -->
+}

@@ -1,0 +1,85 @@
+﻿@model CoverNation.ViewModel.UserInfo.UserInfoViewModel
+<div class="col-md-11 aboutUserContainer">
+    <div class="col-md-6">
+        <h3>Personal info</h3>
+        <span class="col-xs-6 col-md-4">First name: </span>
+        <span class="col-xs-6 col-md-8">@Model.FirstName</span>
+
+        <span class="col-xs-6 col-md-4">Last name: </span>
+        <span class="col-xs-6 col-md-8">@Model.LastName</span>
+
+        <span class="col-xs-6 col-md-4">Email: </span>
+        <span class="col-xs-6 col-md-8">@Model.Email</span>
+
+        <span class="col-xs-6 col-md-4">Birth date: </span>
+        <span class="col-xs-6 col-md-8">@Model.BirthDate</span>
+
+        <span class="col-xs-6 col-md-4">Registration date: </span>
+        <span class="col-xs-6 col-md-8">@Model.RegistrationDate</span>
+
+        <span class="col-xs-6 col-md-4">Gender: </span>
+        <span class="col-xs-6 col-md-8">@Model.Gender</span>
+
+        @if (Model.UserType == "Musician")
+            {
+            <span class="col-md-12">Preferred genre: </span>
+                <ul>
+                    @foreach (var item in Model.PreferredGenres)
+                    {
+                        <li><b>@item.GenreName</b></li>
+                    }
+                </ul>
+        }
+
+    </div>
+    @if (Model.UserType == "Musician")
+    {
+
+        <div class="col-md-6">
+            <h3>Biography</h3>
+            <span class="col-md-12">@Model.Biography</span>
+        </div>
+        
+        <div class="col-md-11">
+            <h3>Musician Education</h3>
+            @foreach (var item in Model.MusicianEducation)
+            {
+                <div class="col-md-12">
+                    <img src="@item.PictureURL"/>
+                    <span>@item.Name</span>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="col-md-6">
+            <span class="col-md-12">Preferred genre: </span>
+            <ul>
+                @foreach (var item in Model.PreferredGenres)
+                {
+                    <li><b>@item.GenreName</b></li>
+                }
+            </ul>
+
+        </div>
+    }
+
+    <div class="col-md-11">
+        <h3>Favourite artist</h3>
+
+        @foreach (var item in Model.FavouriteArtists)
+            {
+            <div class="favouriteArtistSection col-xs-6 col-md-4" style="padding:10px;">
+                <div class="col-xs-12 col-md-12">
+                    <img class="favArtistImg" src="@item.ImageURL" style="width:100%; height:170px;" />
+                </div>
+                <div class="col-xs-12 col-md-12">
+                    <h4>@item.Name</h4>
+                    <p>@item.Description</p>
+                </div>
+            </div><!-- end of favouriteArtistSection -->
+        }
+    </div>
+
+</div><!-- end of aboutUserContainer -->

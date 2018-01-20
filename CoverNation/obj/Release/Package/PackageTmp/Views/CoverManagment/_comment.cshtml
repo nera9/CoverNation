@@ -1,0 +1,11 @@
+﻿@model CoverNation.ViewModel.CoverManagmentViewModel.CoverCommentSection
+    <div class="commentDiv">
+        <div class="floatLeft commentPicture-container" >
+            <img src="@Model.UserPictureURL" class="commentUserIcon floatLeft" />
+        </div>
+        <span class="commentUser">@Model.Username - </span>
+        <span class="commentDate">@Model.Date</span>
+        <p>@Model.Comment</p>
+    </div>
+   
+

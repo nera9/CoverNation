@@ -1,0 +1,9 @@
+﻿@model CoverNation.ViewModel.PlaylistViewModel.PlaylistViewModelIndexList
+
+<div class="col-md-12 playlistContainer">
+    <div class="col-md-12 playlistContent" id="playlistContent">
+        @{
+            Html.RenderPartial("_coverFeedIndexList", Model);
+        }
+    </div>
+</div>

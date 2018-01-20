@@ -1,0 +1,91 @@
+﻿@model CoverNation.ViewModel.CoverManagmentViewModel.CoverShowList
+<div id="coversList" class="coversListProfile">
+    @if (Model.IsVisitor == false && Model.TypeOfVisitingUser == "Musician")
+    {
+        <div class="col-md-12" style="text-align:right;">
+            @Ajax.ActionLink("Cover managment", "Index", "CoverManagment", null, new AjaxOptions { UpdateTargetId = "profileContentData", HttpMethod = "GET" },
+   new { @class = "submitBtnCNMS" })
+        </div>
+    }
+
+    @{
+        Html.RenderPartial("_coversPartialScroll", Model);
+    }
+</div>
+
+<script>
+    $(function() {
+
+        $(".br-widget a").on("click",function(event){
+            var id;
+            id = $(this).parent().attr("id");
+            $.ajax({
+                url: '/CoverManagment/RateCover',
+                type: 'POST',
+                data: { Raiting: $(this).attr("data-rating-text"), CoverId : $(this).parent().attr("id") }
+            });
+        });
+        var currentStep = 1;// cover scroll
+        var isVisitorString = "@Model.IsVisitor";
+        var isVisitor;
+        if (isVisitorString == "True" ) {
+            isVisitor = true;
+        }
+        else{
+            isVisitor = false;
+        }
+        $('#cover-feed-container').on('scroll', function () {
+           
+            if ($(this).scrollTop() + $(this).innerHeight() >= ($(this)[0].scrollHeight))
+            {
+                loadDataCoverFeed();
+            }
+        });
+        function loadDataCoverFeed() {
+            $.get("/CoverFeed/getCoverFeedCovers", { currentStep: currentStep}).done(function (data) {
+                $("#coversList").append(data);
+                currentStep++;
+            });
+        }
+
+
+        $('#profileContentContainer').on('scroll', function () {
+            if ($(this).scrollTop() + $(this).innerHeight() >= ($(this)[0].scrollHeight))
+                loadData();
+        });
+        function loadData() {
+            $.get("/CoverManagment/getMusicianCovers/", { currentStep: currentStep, ProfileToShowUserId: @Model.ProfileToShowUserId, isVisitor : isVisitor == "True" ? true : false}).done(function (data) {
+                $("#coversList").append(data);
+                currentStep++;
+            }); 
+        }
+
+        var coverVideoHeight = 0.0;
+        $(".fa-play").on("click", function () {
+            var parent = (".cover-thumbnail");
+            coverVideoHeight = $(parent).eq(0).height();
+            var parentReplacment = (".coverVideo-iframe");
+            var playBtns = $(".playBtn");
+            var index;
+            
+            for (var i = 0; i < parent.length; i++) {
+                if ($(parent).eq(i).attr("id") == $(this).attr("id")) {
+                    index = i;
+                    $(parent).eq(i).hide();
+                    $(parentReplacment).eq(i).show();
+                    if (!$(parentReplacment).eq(i).attr("src").includes("autoplay")) {
+                        var urlAutoplay = $(parentReplacment).eq(i).attr("src");
+                        urlAutoplay += "?autoplay=1";
+                        $(parentReplacment).eq(i).attr("src", urlAutoplay);
+                    }
+                    $(parentReplacment).eq(i).height(coverVideoHeight);
+                    $(this).remove();
+                }
+            }
+        });
+
+    });
+
+
+
+</script>

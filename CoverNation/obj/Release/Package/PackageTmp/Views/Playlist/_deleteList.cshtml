@@ -1,0 +1,27 @@
+﻿@model CoverNation.ViewModel.PlaylistViewModel.DeleteList
+@*@Ajax.ActionLink("Delete this playlist","DeletePlaylist",new { playlistId = Model.PlaylistId }, new AjaxOptions { UpdateTargetId ="PMRight"})*@
+    <a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#PMRight" href="/Playlist/DeletePlaylist?playlistId=@Model.PlaylistId"
+       style="display:block; text-align:right;">
+        <i class="fa fa-trash-o" aria-hidden="true"></i> Delete this playlist
+    </a>
+@foreach (var item in Model.CoverDeleteList)
+{
+
+    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 videoContainer">
+        <div class="coverVideo col-xs-5 col-sm-5 col-md-12 col-lg-12">
+            <img src="@item.Thumbnail" style="width:100%;height:auto" />
+        </div>
+        <div class="coverVideoContent col-xs-7 col-sm-7 col-md-12 col-lg-12">
+            <div>
+                <span>@item.CoverName</span>    
+                <a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#PMRight" href="/Playlist/DeleteFromPlaylist?coverId=@item.CoverId&playlistId=@Model.PlaylistId">
+                    <i class="fa fa-trash-o floatRight" aria-hidden="true"></i>
+                </a>
+            </div>
+            <div>
+                <p>@item.UploadDate</p>
+            </div>
+
+        </div>
+    </div><!-- end of videoContainer -->
+}

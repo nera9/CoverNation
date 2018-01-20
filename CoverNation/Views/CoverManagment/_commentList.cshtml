@@ -1,0 +1,7 @@
+﻿@model CoverNation.ViewModel.CoverManagmentViewModel.CoverCommentSectionList
+
+@foreach (var item in Model.CommentList)
+{
+    Html.RenderPartial("_comment", item); 
+}
+

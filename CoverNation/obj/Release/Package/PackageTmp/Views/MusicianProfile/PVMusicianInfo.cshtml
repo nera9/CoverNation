@@ -1,0 +1,42 @@
+﻿@using CoverNation.ViewModel
+@using CoverNation.Models
+
+@model CoverNation.ViewModel.MusicianViewModel
+    <h1>Info</h1>
+<table>
+    <tr>
+        <th>First Name: </th>
+        <td>@Model.FirstName</td>
+    </tr>
+    <tr>
+        <th>Last Name:  </th>
+        <td>@Model.LastName</td>
+    </tr>
+    <tr>
+        <th>Email:  </th>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <th>Prefered Genres:</th>
+        <td>
+            <div id="genresBox">
+                @foreach (var genre in Model.preferedGenres)
+                {
+                    <p>@genre.GenreName + "    " + @genre.GenreImage</p>
+                }
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <th>Favourite Artists:</th>
+        <td>
+            <div id="artistsBox">
+                @foreach (var artist in Model.favArtists)
+                {
+                    <p>@artist.Name + "    " + @artist.ImageURL</p>
+                }
+            </div>
+        </td>
+    </tr>
+</table>
+

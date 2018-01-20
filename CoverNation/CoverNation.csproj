@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D42F81BB-80ED-4EDB-B3CF-5E9DFB26DDC6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CoverNation</RootNamespace>
+    <AssemblyName>CoverNation</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\CNStyle.css" />
+    <Content Include="Content\fontawesome-stars.css" />
+    <Content Include="Content\images\CNLogo.png" />
+    <Content Include="Content\images\comment-rate-sm.png" />
+    <Content Include="Content\images\comment-rate.png" />
+    <Content Include="Content\images\error-icon.png" />
+    <Content Include="Content\images\Infinity.gif" />
+    <Content Include="Content\images\interior.jpg" />
+    <Content Include="Content\images\profile.jpg" />
+    <Content Include="Content\images\profileHeader.png" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\themes\base\accordion.css" />
+    <Content Include="Content\themes\base\all.css" />
+    <Content Include="Content\themes\base\autocomplete.css" />
+    <Content Include="Content\themes\base\base.css" />
+    <Content Include="Content\themes\base\button.css" />
+    <Content Include="Content\themes\base\core.css" />
+    <Content Include="Content\themes\base\datepicker.css" />
+    <Content Include="Content\themes\base\dialog.css" />
+    <Content Include="Content\themes\base\draggable.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_444444_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_555555_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777620_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_777777_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\menu.css" />
+    <Content Include="Content\themes\base\progressbar.css" />
+    <Content Include="Content\themes\base\resizable.css" />
+    <Content Include="Content\themes\base\selectable.css" />
+    <Content Include="Content\themes\base\selectmenu.css" />
+    <Content Include="Content\themes\base\slider.css" />
+    <Content Include="Content\themes\base\sortable.css" />
+    <Content Include="Content\themes\base\spinner.css" />
+    <Content Include="Content\themes\base\tabs.css" />
+    <Content Include="Content\themes\base\theme.css" />
+    <Content Include="Content\themes\base\tooltip.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\rs1115.app.fit.ba - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\rs1115.app.fit.ba - Web Deploy.pubxml" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\CN-custom.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.js" />
+    <Content Include="Scripts\jquery-ui-1.12.1.min.js" />
+    <Content Include="Scripts\jquery.barrating.min.js" />
+    <Content Include="Scripts\jquery.jscroll.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdministratorController.cs" />
+    <Compile Include="Controllers\CNMSController.cs" />
+    <Compile Include="Controllers\CoverFeedController.cs" />
+    <Compile Include="Controllers\CoverManagmentController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\PlaylistController.cs" />
+    <Compile Include="Controllers\UsersController.cs" />
+    <Compile Include="DAL\CNContext.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Authentification.cs" />
+    <Compile Include="Helper\Security.cs" />
+    <Compile Include="Migrations\201709141321390_nestio.cs" />
+    <Compile Include="Migrations\201709141321390_nestio.Designer.cs">
+      <DependentUpon>201709141321390_nestio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709201245590_like.cs" />
+    <Compile Include="Migrations\201709201245590_like.Designer.cs">
+      <DependentUpon>201709201245590_like.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709211359065_likeRaiting.cs" />
+    <Compile Include="Migrations\201709211359065_likeRaiting.Designer.cs">
+      <DependentUpon>201709211359065_likeRaiting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709221646548_nekoIme.cs" />
+    <Compile Include="Migrations\201709221646548_nekoIme.Designer.cs">
+      <DependentUpon>201709221646548_nekoIme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201709221726011_comment.cs" />
+    <Compile Include="Migrations\201709221726011_comment.Designer.cs">
+      <DependentUpon>201709221726011_comment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710101527418_instrument.cs" />
+    <Compile Include="Migrations\201710101527418_instrument.Designer.cs">
+      <DependentUpon>201710101527418_instrument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710301416354_unsubrsibeOptional.cs" />
+    <Compile Include="Migrations\201710301416354_unsubrsibeOptional.Designer.cs">
+      <DependentUpon>201710301416354_unsubrsibeOptional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201710301419322_unsubrsibeOptional2.cs" />
+    <Compile Include="Migrations\201710301419322_unsubrsibeOptional2.Designer.cs">
+      <DependentUpon>201710301419322_unsubrsibeOptional2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Administrator.cs" />
+    <Compile Include="Models\BasicUser.cs" />
+    <Compile Include="Models\Comment.cs" />
+    <Compile Include="Models\Instrument.cs" />
+    <Compile Include="Models\Like.cs" />
+    <Compile Include="Models\Cover.cs" />
+    <Compile Include="Models\CoversToPlaylist.cs" />
+    <Compile Include="Models\Artist.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\Musician.cs" />
+    <Compile Include="Models\MusicianEducation.cs" />
+    <Compile Include="Models\MusicianGenre.cs" />
+    <Compile Include="Models\Playlist.cs" />
+    <Compile Include="Models\PreferredGenre.cs" />
+    <Compile Include="Models\Subscriber.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModel\CNMSViewModel.cs" />
+    <Compile Include="ViewModel\CoverFeedViewModel.cs" />
+    <Compile Include="ViewModel\GenreViewModel.cs" />
+    <Compile Include="ViewModel\LoginViewModel.cs" />
+    <Compile Include="ViewModel\PasswordViewModel.cs" />
+    <Compile Include="ViewModel\PlaylistViewModel.cs" />
+    <Compile Include="ViewModel\ProfileViewModel.cs" />
+    <Compile Include="ViewModel\RegistrationEditViewModel.cs" />
+    <Compile Include="ViewModel\RegistrationViewModel.cs" />
+    <Compile Include="ViewModel\CoverManagmentViewModel.cs" />
+    <Compile Include="ViewModel\UserInfoViewModel.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Views\Users\Login.cshtml" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Views\Users\Profile.cshtml" />
+    <Content Include="Views\Users\Register.cshtml" />
+    <Content Include="Views\MusicianProfile\PVMusicianBio.cshtml" />
+    <Content Include="Views\MusicianProfile\PVMusicianEducation.cshtml" />
+    <Content Include="Views\MusicianProfile\PVMusicianInfo.cshtml" />
+    <Content Include="Views\Administrator\AddGenre.cshtml" />
+    <Content Include="Views\Administrator\Profile.cshtml" />
+    <Content Include="Views\Administrator\ShowGenres.cshtml" />
+    <Content Include="Views\CoverFeed\Index.cshtml" />
+    <Content Include="Views\Shared\_coversPartial.cshtml" />
+    <Content Include="Views\Shared\_coversPartialScroll.cshtml" />
+    <Content Include="Views\CoverManagment\_coverManagmentIndex.cshtml" />
+    <Content Include="Views\CoverManagment\_addCover.cshtml" />
+    <Content Include="Views\CoverManagment\_deleteCover.cshtml" />
+    <Content Include="Views\CoverManagment\_deleteList.cshtml" />
+    <Content Include="Views\Users\_about.cshtml" />
+    <Content Include="Views\Playlist\_index.cshtml" />
+    <Content Include="Views\Playlist\_playlistPlay.cshtml" />
+    <Content Include="Views\Playlist\_indexList.cshtml" />
+    <Content Include="Views\Playlist\_playlistPlayIndex.cshtml" />
+    <Content Include="Views\Shared\_modalShow.cshtml" />
+    <Content Include="Views\Shared\_cover.cshtml" />
+    <Content Include="Views\CoverManagment\_comment.cshtml" />
+    <Content Include="Views\CoverManagment\_commentList.cshtml" />
+    <Content Include="Views\Playlist\_playlistManagmentIndex.cshtml" />
+    <Content Include="Views\Playlist\_addNew.cshtml" />
+    <Content Include="Views\Playlist\_coverToNew.cshtml" />
+    <Content Include="Views\Playlist\_coverToPL.cshtml" />
+    <Content Include="Views\Playlist\_deleteList.cshtml" />
+    <Content Include="Views\CNMS\CNMS.cshtml" />
+    <Content Include="Views\CNMS\_personalInfoChange.cshtml" />
+    <Content Include="Views\CNMS\_genreChange.cshtml" />
+    <Content Include="Views\CNMS\_changeProfilePicture.cshtml" />
+    <Content Include="Views\CNMS\_changePassword.cshtml" />
+    <Content Include="Views\CNMS\_favouriteArtistsEdit.cshtml" />
+    <Content Include="Views\CNMS\_favouriteArtistList.cshtml" />
+    <Content Include="Views\CNMS\_favouriteArtistItem.cshtml" />
+    <Content Include="Views\CNMS\_educationEdit.cshtml" />
+    <Content Include="Views\CNMS\_musicianInstruments.cshtml" />
+    <Content Include="Views\CNMS\_updateBiography.cshtml" />
+    <Content Include="Views\Playlist\_playlistCoverList_ss.cshtml" />
+    <Content Include="Views\Playlist\_coverFeedIndex.cshtml" />
+    <Content Include="Views\Playlist\_coverFeedIndexList.cshtml" />
+    <Content Include="Views\Users\_usersSearch.cshtml" />
+    <Content Include="Views\Users\_usersSearchList.cshtml" />
+    <Content Include="Views\Error\NotFound.cshtml" />
+    <Content Include="Views\Error\Error.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Content\images\FavouriteArtists\" />
+    <Folder Include="Content\images\Instruments\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201709141321390_nestio.resx">
+      <DependentUpon>201709141321390_nestio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709201245590_like.resx">
+      <DependentUpon>201709201245590_like.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709211359065_likeRaiting.resx">
+      <DependentUpon>201709211359065_likeRaiting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709221646548_nekoIme.resx">
+      <DependentUpon>201709221646548_nekoIme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201709221726011_comment.resx">
+      <DependentUpon>201709221726011_comment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710101527418_instrument.resx">
+      <DependentUpon>201710101527418_instrument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710301416354_unsubrsibeOptional.resx">
+      <DependentUpon>201710301416354_unsubrsibeOptional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201710301419322_unsubrsibeOptional2.resx">
+      <DependentUpon>201710301419322_unsubrsibeOptional2.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50728</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:54677/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

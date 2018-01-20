@@ -1,0 +1,116 @@
+﻿@model CoverNation.ViewModel.CoverManagmentViewModel.CoverShow
+@if (Model.IsCoverFeed)
+{
+    <a href="/Users/Profile?id=@Model.CoverMusicianId">
+        <div style="padding:10px;">
+            <img src="@Model.CoverMusicianProfile" style="width:50px;height:50px;border-radius:50%;" />
+            <span>@Model.CoverMusicianUsername</span>
+        </div>
+    </a>
+    <div class="coverVideo col-md-12" style="position:relative;">
+        <img src="@Model.Thumbnail" style="width:100%;height:auto" class="cover-thumbnail" id="@Model.CoverId-play"/>
+        <div id="cover-feed-playBtn-ls">
+            <a id="@Model.CoverId-play" class="fa fa-play playBtn"></a>
+            <a href="#" style="display:none"></a>
+        </div>
+        <div id="cover-feed-playBtn-ss">
+            @Ajax.ActionLink(".", "CoverModal", "CoverManagment", Model, new AjaxOptions
+       {
+           UpdateTargetId = "testVideoModal",
+           OnBegin = "openVideoModal();onBegin()",
+           OnComplete = "onComplete"
+       }, new { id = "playBtn", @class = "fa fa-play" })
+        </div>    
+        <iframe class="coverVideo-iframe" src="@Model.YTurl" style="display:none; width:100%; height:100%;"></iframe>
+        <div id="commentContainer-@Model.CoverId" class="commentContainer" style="top:0; width:100%;">
+            <div class="postCommentSection">
+                <div class="postCommentSection-content">
+                    <div class="commentContent-left">
+                        <img src="~/Content/images/profile.jpg" class="commentProfileIcon" />
+                    </div>
+                    <div class="commentContent-right">
+                        <form action="/CoverManagment/PostComment?coverId=@Model.CoverId" class="postCommentForm" data-ajax="true" data-ajax-complete="clearCommentInput" data-ajax-mode="before" data-ajax-update="#commentSection-@Model.CoverId" id="form0" method="post">
+                            <input type="text" name="commentText" class="commentTxt" id="commentText" autocomplete="off" placeholder="Write new comment...">
+                            <div class="submitComment" id="commentSubmit">
+                                <input type="submit" value="✓">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="divider-90"></div>
+            <div id="commentSection-@Model.CoverId" class="commentSection">
+            </div>
+            <div class="divider-90"></div>
+            <div class="rateSection" style="margin-top: -4px;">
+                <div class="currentRaiting">
+                    <label class="raitingStar" id="currentRaiting" for="star-5">@Model.CoverRaitingAvg</label>
+                </div>
+                <div class="userRaiting">
+                    <div class="videoSocialSection">
+                        <select class="example" id="star-@Model.CoverId">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div><!-- end of videoAndCommentSection -->
+    </div>
+    <div class="coverVideoContent col-xs-12 col-sm-12 col-md-12 col-lg-12" style="padding-bottom:20px;padding-left:0;">
+        <div div class="col-xs-12 col-md-12">
+            <span>@Model.CoverName</span>
+            <span class="floatRight"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></span>
+        </div>
+        @*UNCOMMENT FOR COVER FEED LARGE SCREEN*@
+        <a data-ajax="true" onclick="openCommentSection(@Model.CoverId)" data-ajax-mode="replace" data-ajax-update="#commentSection-@Model.CoverId" href="/CoverManagment/GetComments?coverId=@Model.CoverId" id="@Model.CoverId" class="commentBtn"><img src="~/Content/images/comment-rate.png" style="margin:10px;" />Comment & rate</a>
+
+        
+       
+    </div>
+}
+else
+{
+    <div class="coverVideo col-xs-5 col-sm-5 col-md-12 col-lg-12" id="@Model.CoverId">
+        <img src="@Model.Thumbnail" style="width:100%;height:auto" />
+        @Ajax.ActionLink(".", "CoverModal", "CoverManagment", Model, new AjaxOptions
+{
+    UpdateTargetId = "testVideoModal",
+    OnBegin = "openVideoModal();onBegin()",
+    OnComplete = "onComplete"
+}, new { id = "playBtn", @class = "fa fa-play" })
+    </div>
+    <div class="coverVideoContent col-xs-7 col-sm-7 col-md-12 col-lg-12">
+        <div>
+            <span>@Model.CoverName</span>
+            <span class="floatRight"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></span>
+        </div>
+        <div>
+            <p>@Model.UploadDate</p>
+        </div>
+    </div>
+}
+
+<script>
+    
+    $(function() {
+        $('select.example').barrating({
+            theme: 'fontawesome-stars'
+        });
+        $(".br-widget:nth-last-child(1)").attr("id",@Model.CoverId);
+       
+
+        //Odkomentirati za cover feed large screen
+        if ('@(Model.IsLikedByCurrentUser)' === '@true')
+        {
+            $('select#star-@Model.CoverId').barrating('set',@Model.CurrentUserRaiting);
+        }
+    });
+       
+
+</script>
+
+

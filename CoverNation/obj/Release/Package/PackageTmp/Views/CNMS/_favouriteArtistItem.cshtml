@@ -1,0 +1,16 @@
+﻿@model CoverNation.ViewModel.CNMSViewModel.FavouriteArtists
+
+<div class="col-md-3 col-xs-12" id="favArtItem" style="margin-bottom:15px;">
+    <div class="col-md-11">
+        <img src="@Model.ArtistPictureURL" alt="@Model.ArtistName" style="width:100%;max-height:170px;" />
+    </div>
+    <div class="col-md-11 col-xs-12" style="color:white;">
+        <h4>@Model.ArtistName
+            <a data-ajax="true" data-ajax-mode="replace" data-ajax-update="#favouriteArtistList" href="/CNMS/DeleteFavouriteArtist?artistId=@Model.ArtistId" class="floatRight">
+                <i class="fa fa-trash-o" aria-hidden="true"></i>
+            </a>
+        </h4>
+        <p>@Model.Description</p>
+    </div>
+    
+</div>

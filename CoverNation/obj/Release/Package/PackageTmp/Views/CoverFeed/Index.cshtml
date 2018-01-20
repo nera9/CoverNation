@@ -1,0 +1,135 @@
+﻿
+
+
+
+<script>
+    function openVideoModal() {
+        $("#testVideoModal").show();
+    }
+    function onBegin() {
+        $("#infinity-loader").show();
+    }
+    function onComplete() {
+        $("#infinity-loader").hide();
+    }
+    function setHoverEffect(hoverBox, playBtn) {
+        var playlistContent = document.getElementsByClassName(hoverBox);
+        var playBtn = document.getElementById(playBtn);
+        for (var i = 0; i < playlistContent.length; i++) {
+            playlistContent[i].addEventListener("mouseover", PlaylistMouseOver, false);
+            playlistContent[i].addEventListener("mouseout", PlaylistMouseOut, false);
+
+
+        }
+    }
+    function PlaylistMouseOver() {
+        this.getElementsByTagName("a")[0].setAttribute("style", "display:block;")
+
+    }
+
+    function PlaylistMouseOut() {
+        this.getElementsByTagName("a")[0].setAttribute("style", "display:none;")
+    }
+    $(function () {
+
+        $("#mainSearch").on("click", function () {
+            $("#searchModal").show();
+        });
+        $("#closeSearch").on("click", function () {
+            $("#searchModal").hide();
+        });
+       
+    });
+
+  
+</script>
+@*<div id="testVideoModal">
+</div>*@
+
+<div id="cover-feed-container">
+    <div id="searchModal">
+        <i class="fa fa-times" id="closeSearch" aria-hidden="true"></i>
+        <div id="searchModal-content">
+            @using (Ajax.BeginForm("test", "CoverFeed", new AjaxOptions { UpdateTargetId = "search-result" }))
+            {
+            <div class="row" style="padding:0 30px;">
+                <div class="col-md-11">
+                    <input type="text" name="searchTerm" class="loginInput" placeholder="Search covers or users"  autocomplete="off"/>
+                </div>
+                <div class="col-md-1" style="text-align:right;">
+                    <i class="fa fa-search"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <section id="search-radio-container" class="section">
+                    <div class="container">
+                        <input type="radio" name="group1" id="radio-1" value="cover" checked>
+                        <label for="radio-1"><span class="radio">Covers</span></label>
+                    </div>
+                    <div class="container">
+                        <input type="radio" name="group1" id="radio-2" value="user">
+                        <label for="radio-2"><span class="radio">Users</span></label>
+                    </div>
+                </section>
+            </div>
+            }
+            <div id="search-result" class="row">
+               
+            </div>
+        </div>
+    </div>
+    <div id="cover-feed-subs">
+        <p><i class="fa fa-search" id="mainSearch"></i> <span style="color:transparent;">dd</span>Search covers and users</p>
+    </div><!-- end of cover-feed-subs -->
+    <div id="cover-feed-covers">
+        @{
+                Html.RenderAction("getCoverFeedCovers", "CoverFeed");
+        }
+    </div><!-- end of cover-feed-covers -->
+    <div id="cover-feed-playlist">
+        @{
+            Html.RenderAction("Index", "Playlist", new { v = "coverFeedCall" });
+        }
+    </div><!-- end of cover-feed-playlist -->
+    @*
+    <div id="mobile-feed">
+      
+        <div data-role="page" id="demo-page" data-theme="d" data-url="demo-page">
+            <div data-role="header" data-theme="b">
+                @{
+                    Html.RenderAction("getCoverFeedCovers", "CoverFeed");
+                }
+
+            </div><!-- /content -->
+            <div data-role="panel" id="left-panel" data-theme="b">
+                <p>Left reveal panel.</p>
+                <a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right">Close</a>
+            </div><!-- /panel -->
+            <div data-role="panel" id="right-panel" data-display="push" data-position="right" data-theme="c">
+                <p>Right push panel.</p>
+                <a href="#" data-rel="close" data-role="button" data-mini="true" data-inline="true" data-icon="delete" data-iconpos="right">Close</a>
+            </div><!-- /panel -->
+        </div>
+    </div>
+      *@
+</div><!-- end of cover-feed-container -->
+
+<!--
+<script>
+    $(document).on("pageinit", "#demo-page", function () {
+        $(document).on("swipeleft swiperight", "#demo-page", function (e) {
+            // We check if there is no open panel on the page because otherwise
+            // a swipe to close the left panel would also open the right panel (and v.v.).
+            // We do this by checking the data that the framework stores on the page element (panel: open).
+            if ($.mobile.activePage.jqmData("panel") !== "open") {
+                if (e.type === "swipeleft") {
+                    $("#right-panel").panel("open");
+                } else if (e.type === "swiperight") {
+                    $("#left-panel").panel("open");
+                }
+            }
+        });
+    });
+</script>
+    -->

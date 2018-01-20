@@ -1,0 +1,11 @@
+﻿<div id="playListNameAdd">
+    @using (Ajax.BeginForm("AddNew", new AjaxOptions { UpdateTargetId = "playListNameAdd", OnSuccess = "selectPlaylist()" }))
+    {
+        <div class="col-md-12">
+            <label for="playlistName" class="formLabel">Enter new pl name:</label><br />
+            <input type="text" name="playlistName" class="loginInput" style="max-width:243px;float:left;" />
+            <input type="submit" class="submitBtn" style="float:left;margin-left:10px;" />
+        </div>
+    }
+</div>
+

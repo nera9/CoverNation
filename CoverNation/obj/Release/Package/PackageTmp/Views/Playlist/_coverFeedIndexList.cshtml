@@ -1,0 +1,40 @@
+﻿@model CoverNation.ViewModel.PlaylistViewModel.PlaylistViewModelIndexList
+
+@foreach (var item in Model.Playlists)
+{
+    <div class="col-md-12" style="padding:10px 0 10px 30px; border-bottom:1px solid rgba(255,255,255,.2);">
+        <div class="row">
+            <div class="col-md-6 playlistItemCF" style="padding:20px 0 20px 0; font-size:30px !important;">
+                <img src="@item.PlaylistThumbnail" style="width:100%;height:auto" />
+                <a class="fa fa-play playBtnPlaylist" data-ajax="true" data-ajax-begin="openVideoModal();onBegin()" data-ajax-complete="onComplete" data-ajax-mode="replace" data-ajax-update="#testVideoModal" href="/Playlist/Play?playlistId=@item.PlaylistId" id="playBtn">
+                </a>
+                <a class="fa fa-play playBtn-smallScreen play-btn-hoverEvent" data-ajax-begin="onBegin()" data-ajax-complete="onComplete" data-ajax="true" data-ajax-mode="replace" data-ajax-update="#playlistContent" href="/Playlist/PlaylistCoverSmallScreen?playlistId=@item.PlaylistId" id="playBtn-smallScreen">
+                </a>
+            </div>
+            <div class="col-md-6" style="padding:20px;">
+                <span style="font-size:20px;">@item.PlaylistName</span>
+                <p style="font-size:14px;">@item.NumberOfCovers covers</p>
+            </div>
+        </div>
+    </div>
+}
+<script>
+    if ($(window).width() < 768) {
+        var btns_lenght = $(".playBtnPlaylist").length;
+        var btns = $(".playBtnPlaylist");
+
+        for (var i = 0; i < btns_lenght; i++) {
+            btns[i].remove();
+        }
+        setHoverEffect("playlistItemCF", "playBtn-smallScreen");
+    }
+    else {
+        var btns_lenght = $(".playBtn-smallScreen").length;
+        var btns = $(".playBtn-smallScreen");
+
+        for (var i = 0; i < btns_lenght; i++) {
+            btns[i].remove();
+        }
+        setHoverEffect("playlistItemCF", "playBtnPlaylist");
+    }
+</script>
